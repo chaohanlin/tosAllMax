@@ -1,0 +1,53 @@
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: Microsoft JhengHei;
+}
+
+.app-container {
+  padding: 20px;
+}
+
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 90px;
+  padding: 10px;
+  margin: 0px 10px;
+  border: 1px solid #ccc; /* Add border for better visibility */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+button {
+  width: 90px;
+  margin-right: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Add rounded corners */
+  background-color: #3498db; /* Change background color to a desired color */
+  color: #fff; /* Set text color to white */
+}
+
+.matching-keys-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.matching-key-item {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+}
