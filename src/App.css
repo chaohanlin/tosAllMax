@@ -23,8 +23,8 @@ input {
   width: 90px;
   padding: 10px;
   margin: 0px 10px;
-  border: 1px solid #ccc; /* Add border for better visibility */
-  border-radius: 5px; /* Add rounded corners */
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 button {
@@ -32,10 +32,10 @@ button {
   margin-right: 10px;
   padding: 10px;
   cursor: pointer;
-  border: none; /* Remove default button border */
-  border-radius: 5px; /* Add rounded corners */
-  background-color: #3498db; /* Change background color to a desired color */
-  color: #fff; /* Set text color to white */
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: #fff;
 }
 
 .matching-keys-container {
@@ -44,10 +44,17 @@ button {
   gap: 10px;
 }
 
-.matching-key-item {
+table {
+  border-collapse: collapse;
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-  align-items: center;
+}
+
+th, td {
+  border: 1px solid #555;
+  padding: 8px;
+  text-align: center;
+}
+
+#td_reason {
+  text-align: left;
 }
