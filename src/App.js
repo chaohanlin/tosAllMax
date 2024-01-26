@@ -64,7 +64,8 @@ const App = () => {
         return 'light';
       case 5:
         return 'dark';
-      // no default case intentionally
+      default:
+        return '';
     }
   };
   
@@ -84,7 +85,8 @@ const App = () => {
         return 'demon';
       case 10:
         return 'machine';
-      // no default case intentionally
+      default:
+        return '';
     }
   };
 
@@ -107,7 +109,7 @@ const App = () => {
       <div className="matching-keys-container">
       {notMatchingKeys.length > 0 && (
         <>
-        <div>閣下無該些卡片，以下依推薦排序：</div>
+        {/* <div>閣下無該些卡片，以下依推薦排序：</div> */}
         <table>
           <tbody>
           {sortedKeys.map((key) => (
@@ -134,10 +136,11 @@ const App = () => {
                   style={{ width: '25px' }}
                 />
               </td>
-              <td rowSpan="3" id="td_reason">{cardData[key]?.reason}</td>
+              <td id="td_left">綜合評分：{cardData[key]?.point}</td>
             </tr>
             <tr key={key}>
               <td colSpan="2">{key}</td>
+              <td rowSpan="2" id="td_left">{cardData[key]?.reason}</td>
             </tr>
             <tr key={key}>
               <td style={{ width: '60px' }} colSpan="3">
