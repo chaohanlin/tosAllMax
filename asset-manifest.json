@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tosAllMax/static/css/main.2e87cb9d.css",
+    "main.js": "/tosAllMax/static/js/main.111d354f.js",
+    "index.html": "/tosAllMax/index.html",
+    "main.2e87cb9d.css.map": "/tosAllMax/static/css/main.2e87cb9d.css.map",
+    "main.111d354f.js.map": "/tosAllMax/static/js/main.111d354f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e87cb9d.css",
+    "static/js/main.111d354f.js"
+  ]
+}
