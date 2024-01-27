@@ -88,7 +88,7 @@ const App = () => {
     if (cardData.hasOwnProperty(key)) {
       let score = cardData[key].score;
       cardData[key].value.forEach(([cardId, value]) => {
-        if (cardData.hasOwnProperty(cardId)) {
+        if (hasCard(cardId)) { // 檢查該使用者有無此卡片
           score += value;
         }
       });
