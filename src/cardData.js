@@ -7393,8 +7393,8 @@ const cardData = {
         "attribute": 4,
         "race": 5,
         "rarity": 7,
-        "score": 0,
-        "reason": "",
+        "score": 60,
+        "reason": "異轉路西法的好夥伴，給予進場-cd效果，並將路西法技二升級為為定版",
         "value": []
     },
     "823": {
@@ -12532,14 +12532,10 @@ const cardData = {
         "attribute": 4,
         "race": 4,
         "rarity": 7,
-<<<<<<< HEAD
         "point": 52
         "reason": "原因：一回合擋死，極限昇華後，還可以龍族緩龍隊對磨能力的問題，缺點是cd略長"
-=======
-        "score": 0,
-        "reason": "",
         "value": []
->>>>>>> 5b61b9eedc8009838201b9cf1ea6fb27fb653042
+
     },
     "1394": {
         "name": "究極美食家・向日葵",
@@ -20754,7 +20750,7 @@ const cardData = {
         "attribute": 2,
         "race": 4,
         "rarity": 6,
-        "score": 0,
+        "score": 55,
         "reason": "血量較高的附加消除，在頭尾集傷的隊伍中增傷效益相當可觀",
         "value": []
     },
@@ -23031,8 +23027,8 @@ const cardData = {
         "attribute": 3,
         "race": 2,
         "rarity": 6,
-        "score": 0,
-        "reason": "",
+        "score": 70,
+        "reason": "曾經的萬用瑞士刀，逆回和擋死效果在現今環境仍十分有用，缺點是cd略長，在不長的關卡中無法發揮瑞士刀的特性。",
         "value": []
     },
     "2569": {
@@ -24629,8 +24625,8 @@ const cardData = {
         "attribute": 4,
         "race": 1,
         "rarity": 7,
-        "score": 0,
-        "reason": "",
+        "score": 55,
+        "reason": "主動技一是好用的五屬心定版，技二是攻防以體的輔助技，推出nkh後，這組合有不錯的打工價值",
         "value": []
     },
     "2747": {
@@ -25178,8 +25174,8 @@ const cardData = {
         "attribute": 3,
         "race": 5,
         "rarity": 7,
-        "score": 0,
-        "reason": "",
+        "score": 50,
+        "reason": "原因：主動技一的固定數量(版面)和技二的排珠+增傷都有一定的價值，作為隊長也能勉強處理神族隊長的成就",
         "value": []
     },
     "2809": {
@@ -25187,8 +25183,8 @@ const cardData = {
         "attribute": 4,
         "race": 2,
         "rarity": 7,
-        "score": 0,
-        "reason": "",
+        "score": 55,
+        "reason": "獸隊的巴龍版面，在蛇夫的隊伍中有倍血的效果",
         "value": []
     },
     "2810": {
@@ -25358,8 +25354,8 @@ const cardData = {
         "attribute": 2,
         "race": 3,
         "rarity": 7,
-        "score": 0,
-        "reason": "",
+        "score": 65,
+        "reason": "喚靈妲己武裝的收益者之一，火心兩種屬性的兩回合定版能夠處理首消五組相同等等的麻煩敵技。作為隊長，仍是解妖精成就的選擇之一，但二消特性相對不穩定",
         "value": []
     },
     "2829": {
@@ -25403,8 +25399,8 @@ const cardData = {
         "attribute": 2,
         "race": 3,
         "rarity": 7,
-        "score": 0,
-        "reason": "",
+        "score": 50,
+        "reason": "使用喚靈火妲己武裝或是妖精常見的整隊加速輪轉，就可以變成單卡永動的定版",
         "value": []
     },
     "2834": {
@@ -25458,7 +25454,7 @@ const cardData = {
         "race": 8,
         "rarity": 7,
         "score": 65,
-        "reason": "",
+        "reason": "原因：等同於兩回合的大量+c，當隊長組純宇宙序章隊伍雖不在一線但也值得一玩",
         "value": []
     },
     "2840": {
@@ -25466,9 +25462,9 @@ const cardData = {
         "attribute": 3,
         "race": 8,
         "rarity": 7,
-        "score": 65,
+        "score": 60,
         "reason": "巴龍隊不錯的解鎖選擇，並且同為宇宙序章給予的木兼具效果能減輕暗珠被針對的情況",
-        "value": []
+        "value": [[2842,4]]
     },
     "2841": {
         "name": "概念衍生・道羅斯",
@@ -25477,15 +25473,15 @@ const cardData = {
         "rarity": 7,
         "score": 72,
         "reason": "巴龍隊伍中的常用隊員，破三五屬的同時還能給予不小的增傷效果，並且同為宇宙序章給予的光兼具效果能減輕暗珠被針對的情況",
-        "value": []
+        "value": [[2842,5]]
     },
     "2842": {
         "name": "邏輯瓦解・阿撒托斯",
         "attribute": 5,
         "race": 4,
         "rarity": 7,
-        "score": 0,
-        "reason": "",
+        "score": 95,
+        "reason": "推薦原因:改死的今晚又輪到誰。綜合強度雖及不上同屬通種族的雙龍使，但通關能力依舊強悍，並勝在劇本操作更簡單",
         "value": [[10560, -2], [2688, 2]]
     },
     "2843": {
@@ -27428,8 +27424,8 @@ const cardData = {
         "attribute": 4,
         "race": 4,
         "rarity": 6,
-        "score": 0,
-        "reason": "",
+        "score": 50,
+        "reason": "龍隊的另一個解鎖選擇，可以增加巴龍版面的彈性，同時也是光屬中唯二的全隊解鎖，缺點是減少敵攻99%一回的主動並不亮眼。",
         "value": []
     },
     "10048": {
@@ -27437,8 +27433,8 @@ const cardData = {
         "attribute": 1,
         "race": 2,
         "rarity": 6,
-        "score": 0,
-        "reason": "",
+        "score": 55,
+        "reason": "尊爵不凡的+3c角色珠羈絆，跨回合集暈與身旁三倍的效果，效益同樣不差",
         "value": []
     },
     "10049": {
@@ -27446,8 +27442,8 @@ const cardData = {
         "attribute": 2,
         "race": 3,
         "rarity": 6,
-        "score": 0,
-        "reason": "",
+        "score": 75,
+        "reason": "上修後成為妖精的一線隊長",
         "value": []
     },
     "10050": {
@@ -27905,8 +27901,8 @@ const cardData = {
         "attribute": 4,
         "race": 5,
         "rarity": 6,
-        "score": 0,
-        "reason": "",
+        "score": 75,
+        "reason": "常駐除了增傷之外還可以處理五屬擊，以及對磨能力的問題。關技時也附送六直行版面。自身還有加速羈絆這點相當加分。",
         "value": []
     },
     "10101": {
@@ -28247,8 +28243,8 @@ const cardData = {
         "attribute": 1,
         "race": 10,
         "rarity": 6,
-        "score": 0,
-        "reason": "",
+        "score": 85,
+        "reason": "進場滿龍脈儀和二代初音的隊伍技有相當好的相性，主動技的二消能協助處理常見的首消n組屬性盾，自身2倍血給隊伍實血的提升同樣不容小覷",
         "value": []
     },
     "10139": {
@@ -28319,8 +28315,8 @@ const cardData = {
         "attribute": 5,
         "race": 2,
         "rarity": 6,
-        "score": 0,
-        "reason": "",
+        "score": 60,
+        "reason": "兩回合內提供大量+c，可惜的是無論做是進場跳隊長抑或是獸隊隊長現在都有更好的選擇",
         "value": []
     },
     "10147": {
@@ -28536,7 +28532,7 @@ const cardData = {
         "race": 3,
         "rarity": 6,
         "score": 0,
-        "reason": "",
+        "reason": "常駐增傷+排珠，適合手轉能力不佳的玩家。自身當隊長也能解較簡單的妖精成就",
         "value": []
     },
     "10171": {
@@ -29444,8 +29440,8 @@ const cardData = {
         "attribute": 4,
         "race": 1,
         "rarity": 6,
-        "score": 0,
-        "reason": "",
+        "score": 70,
+        "reason": "曾經的唯一全隊解休眠，但唯一性已然不再，但擋死外加定版以及加速羈絆的組合 在特定隊局中表現依舊十分亮眼",
         "value": []
     },
     "10272": {
@@ -29507,8 +29503,8 @@ const cardData = {
         "attribute": 3,
         "race": 4,
         "rarity": 6,
-        "score": 0,
-        "reason": "",
+        "score": 50,
+        "reason": "在巴龍以及雙龍使接連推出後，無論是主動技和隊長價值都嚴重下跌",
         "value": []
     },
     "10279": {
@@ -29516,14 +29512,9 @@ const cardData = {
         "attribute": 2,
         "race": 5,
         "rarity": 6,
-<<<<<<< HEAD
         "point": 78,
         "reason": "原因：尊爵不凡的火神進場cd-3隊伍技，還帶有追打光暗、破攻前、無視連擊同等、複製版面效果的多功能瑞士刀"
-=======
-        "score": 0,
-        "reason": "",
         "value": []
->>>>>>> 5b61b9eedc8009838201b9cf1ea6fb27fb653042
     },
     "10280": {
         "name": "獸道征途・凱撒",
@@ -30340,8 +30331,8 @@ const cardData = {
         "attribute": 1,
         "race": 8,
         "rarity": 6,
-        "score": 0,
-        "reason": "",
+        "score": 65,
+        "reason": "更多時候是放大terry砲擊隊射程的工具卡，作為隊長玩起來並不舒適",
         "value": []
     },
     "10373": {
@@ -30349,8 +30340,8 @@ const cardData = {
         "attribute": 3,
         "race": 10,
         "rarity": 6,
-        "score": 0,
-        "reason": "",
+        "score": 70,
+        "reason": "機械少數的六直行定版，五屬心的分布多半時間會比機械妍希更好用",
         "value": []
     },
     "10374": {
@@ -31231,8 +31222,8 @@ const cardData = {
         "attribute": 3,
         "race": 3,
         "rarity": 6,
-        "score": 0,
-        "reason": "",
+        "score": 70,
+        "reason": "妖精唯一的無視連擊同等。作為隊長在遇到相性好的關卡，打起來會十分輕鬆",
         "value": []
     },
     "10481": {
@@ -31240,8 +31231,8 @@ const cardData = {
         "attribute": 3,
         "race": 8,
         "rarity": 6,
-        "score": 0,
-        "reason": "",
+        "score": 65,
+        "reason": "拿破崙隊伍中效益最高的常駐增傷(含強化珠加成)，關技時給予的+6c有時也十分關鍵",
         "value": []
     },
     "10482": {
@@ -31313,7 +31304,7 @@ const cardData = {
         "race": 5,
         "rarity": 6,
         "score": 80,
-        "reason": "帥",
+        "reason": "2023年嶄新池中隊長價值最高的一張卡，主動技的常駐加c十分稀有，可惜和新年黑金撞屬性及種族。",
         "value": []
     },
     "10490": {
@@ -31322,7 +31313,7 @@ const cardData = {
         "race": 2,
         "rarity": 6,
         "score": 100,
-        "reason": "上限極高的一張隊員卡，只要能入隊就是妥妥的一線選擇，並在能自產亢奮的隊伍裡更是可怕",
+        "reason": "上限極高的一張隊員卡，只要能入隊就是妥妥的一線選擇，並在能自產亢奮的隊伍裡更是可怕，攻略不常看到只是怕你沒有抽",
         "value": []
     },
     "10491": {
@@ -31582,8 +31573,8 @@ const cardData = {
         "attribute": 2,
         "race": 4,
         "rarity": 6,
-        "score": 0,
-        "reason": "",
+        "score": 75,
+        "reason": "上限極高的龍族隊長，有著比巴龍和雙龍使更好的回血系統。缺點是玩法偏磨，通關速度較慢。和南納的雙人組有進場跳和倍血，有一定的打工價值。",
         "value": []
     },
     "10520": {
@@ -31591,8 +31582,8 @@ const cardData = {
         "attribute": 2,
         "race": 1,
         "rarity": 6,
-        "score": 0,
-        "reason": "",
+        "score": 30,
+        "reason": "和火蒼璧的雙人組有進場跳和倍血，有一定的打工價值，也是火埃隊伍中優秀的彈藥位",
         "value": []
     },
     "10521": {
