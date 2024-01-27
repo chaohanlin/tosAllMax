@@ -11140,8 +11140,8 @@ const cardData = {
         "attribute": 4,
         "race": 4,
         "rarity": 7,
-        "point": 0,
-        "reason": ""
+        "point": 52
+        "reason": "原因：一回合擋死，極限昇華後，還可以龍族緩龍隊對磨能力的問題，缺點是cd略長"
     },
     "1394": {
         "name": "究極美食家・向日葵",
@@ -21772,7 +21772,7 @@ const cardData = {
         "attribute": 2,
         "race": 5,
         "rarity": 8,
-        "point": 55
+        "point": 55,
         "reason": "原因：神族的超大型增傷，並且可以配合處理屬性攻擊次數盾，在純火神隊中也能有撐血的效果，未來抽到複製還可以換最多的精魄"
     },
     "2733": {
@@ -26228,8 +26228,8 @@ const cardData = {
         "attribute": 2,
         "race": 5,
         "rarity": 6,
-        "point": 0,
-        "reason": ""
+        "point": 78,
+        "reason": "原因：尊爵不凡的火神進場cd-3隊伍技，還帶有追打光暗、破攻前、無視連擊同等、複製版面效果的多功能瑞士刀"
     },
     "10280": {
         "name": "獸道征途・凱撒",
