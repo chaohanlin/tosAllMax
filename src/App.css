@@ -60,6 +60,43 @@ th, td {
   color: #ddd;
 }
 
+.custom-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #555555;
+  border-radius: 5px;
+  padding: 8px;
+  width: 50px;
+  outline: none;
+  cursor: pointer;
+}
+
+.custom-select option {
+  padding: 8px;
+}
+
+.custom-select-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.warning-text {
+  text-align: left;
+  flex-grow: 1;
+}
+
+#imgCover {
+  display: flex;
+  margin: -18px 0px 10px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
 #td_left {
   text-align: left;
 }
