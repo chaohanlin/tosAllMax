@@ -14,6 +14,12 @@ const App = () => {
   const [notMatchingKeys, setNotMatchingKeys] = useState([]);
   const [uid, setUid] = useState('');
   const [auth, setAuth] = useState('');
+  const [displayCount, setDisplayCount] = useState(15);
+
+  useEffect(() => {
+    handleResult();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const handleImport = async () => {
     if (!uid.match(/^[1-9]\d{6,9}$/)) window.alert('請輸入正確的UID格式')
@@ -40,6 +46,11 @@ const App = () => {
         window.alert('更新失敗，請確認有於神魔健檢中心公開背包。')
       }
     }
+  };
+
+  const handleSelectChange = (event) => {
+    const selectedValue = parseInt(event.target.value, 10);
+    setDisplayCount(selectedValue);
   };
 
   const handleResult = async () => {
@@ -72,10 +83,6 @@ const App = () => {
     setNotMatchingKeys(notFoundKeys);
   };
 
-  useEffect(() => {
-    handleResult();
-  }, []);
-
   let resultKey = [];
   notMatchingKeys.forEach(key => {
     if (cardData.hasOwnProperty(key)) {
@@ -92,7 +99,7 @@ const App = () => {
   resultKey = resultKey
   .slice()
   .sort((a, b) => b[1] - a[1])
-  .slice(0, 20); // 只列出前20高分的
+  .slice(0, displayCount);
 
   const imgUrlAttr = (attribute) => {
     switch (attribute) {
@@ -110,7 +117,7 @@ const App = () => {
         return '';
     }
   };
-  
+
   const imgUrlRace = (race) => {
     switch (race) {
       case 1:
@@ -155,14 +162,23 @@ const App = () => {
           <small style={{ textAlign: 'right' }}>評價者：<a className="src" href="https://www.youtube.com/@user-oq4nb1df7w/videos" target="_blank" rel="noreferrer">微醺盜賊</a></small>
         </label>
         <label>
-          ⚠️數字僅供參考，必中為 ≤５。但若開過圖鑑卻刪除，或擁有進化前的不在此考量，審慎選擇。
+          <div className="custom-select-container">
+            <div className="warning-text">
+              ⚠️數字僅供參考，必中為 ≤５。但若開過圖鑑後刪除，或擁有進化前的不在此考量，審慎選擇。
+            </div>
+            <select className="custom-select" value={displayCount} onChange={handleSelectChange}>
+              <option value={15}>15</option>
+              <option value={50}>50</option>
+              <option value={100}>100</option>
+              <option value={376}>376</option>
+            </select>
+          </div>
         </label>
       </div>
 
       <div className="matching-keys-container">
       {notMatchingKeys.length > 0 && (
         <>
-        {/* <div>閣下無該些卡片，以下依推薦排序：</div> */}
         <table>
           <tbody>
             {resultKey.map(([key, score]) => (
