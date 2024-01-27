@@ -1,7 +1,7 @@
 import { useState, useRef, useMemo, createContext, useContext } from 'react';
 import axios from 'axios';
 
-const [uid, auth] = ['1004578927', '391890'];
+const [uid, auth] = ['1014220395', '455850'];
 
 async function getToken(uid, auth) {
   return await axios.post('https://website-api.tosgame.com/api/checkup/login', null, {

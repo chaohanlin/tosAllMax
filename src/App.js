@@ -16,9 +16,9 @@ const App = () => {
       try {
         await queryInventory(uid);
         notMatchingKeys.length = 0;
-        window.alert('匯入成功')
+        window.alert('匯入成功！')
       } catch (error) {
-        window.alert('匯入失敗')
+        window.alert('匯入失敗，請確認有於神魔健檢中心公開背包。')
       }
     }
   };
@@ -30,9 +30,9 @@ const App = () => {
       try {
         notMatchingKeys.length = 0
         await updateInventory(uid, auth);
-        window.alert('更新成功')
+        window.alert('更新成功！')
       } catch (error) {
-        window.alert('更新失敗')
+        window.alert('更新失敗，請確認有於神魔健檢中心公開背包。')
       }
     }
   };
