@@ -12532,8 +12532,8 @@ const cardData = {
         "attribute": 4,
         "race": 4,
         "rarity": 7,
-        "point": 52
-        "reason": "原因：一回合擋死，極限昇華後，還可以龍族緩龍隊對磨能力的問題，缺點是cd略長"
+        "point": 52,
+        "reason": "原因：一回合強擋死，極限昇華後，還可以龍族緩龍隊對磨能力的問題，缺點是cd略長"
         "value": []
 
     },
