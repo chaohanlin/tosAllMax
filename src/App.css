@@ -55,6 +55,11 @@ th, td {
   text-align: center;
 }
 
+.src {
+  text-decoration: none;
+  color: #ddd;
+}
+
 #td_left {
   text-align: left;
 }
