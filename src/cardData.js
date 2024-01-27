@@ -14941,7 +14941,7 @@ const cardData = {
         "race": 4,
         "rarity": 7,
         "point": 0,
-        "reason": ""
+        "reason": "原因：龍隊撐血以及增傷，在巴龍隊中可以處理固定連擊盾，雙龍使隊解鎖"
     },
     "1869": {
         "name": "奏響世界之音・莎娜",
@@ -16652,8 +16652,8 @@ const cardData = {
         "attribute": 3,
         "race": 8,
         "rarity": 7,
-        "point": 0,
-        "reason": ""
+        "point": 50,
+        "reason": "原因：最近越來越重視實血，魔族撐血的首選"
     },
     "2089": {
         "name": "沐浴榮譽・瑪伊雅彌",
@@ -18445,7 +18445,7 @@ const cardData = {
         "race": 4,
         "rarity": 6,
         "point": 0,
-        "reason": ""
+        "reason": "原因：血量較高的附加消除，在頭尾集傷的隊伍中增傷效益相當可觀"
     },
     "2313": {
         "name": "厲火法典・馬杜克",
@@ -20300,8 +20300,8 @@ const cardData = {
         "attribute": 2,
         "race": 8,
         "rarity": 7,
-        "point": 0,
-        "reason": ""
+        "point": 50,
+        "reason": "火屬性追打次數盾，拿破崙純火魔隊"
     },
     "2548": {
         "name": "恨愛芒刺・迪爾姆德",
@@ -20460,8 +20460,8 @@ const cardData = {
         "attribute": 2,
         "race": 4,
         "rarity": 6,
-        "point": 0,
-        "reason": ""
+        "point": 65,
+        "reason": "原因：破三五屬的同時還能給予增傷效果，只有兩種屬性的定版以及還原版面意外好用，缺點是cd偏長"
     },
     "2568": {
         "name": "比擬萬象・達格",
@@ -21436,8 +21436,8 @@ const cardData = {
         "attribute": 5,
         "race": 4,
         "rarity": 6,
-        "point": 0,
-        "reason": ""
+        "point": 70,
+        "reason": "原因:繼承傷害仍是相當稀有的技能，可以應付許多讓隊伍無法正常輸出的敵技，修飾版面的效果偶爾也能發揮奇效"
     },
     "2691": {
         "name": "翳沒幽謐・洛墨",
@@ -21772,8 +21772,8 @@ const cardData = {
         "attribute": 2,
         "race": 5,
         "rarity": 8,
-        "point": 0,
-        "reason": ""
+        "point": 55
+        "reason": "原因：神族的超大型增傷，並且可以配合處理屬性攻擊次數盾，在純火神隊中也能有撐血的效果，未來抽到複製還可以換最多的精魄"
     },
     "2733": {
         "name": "俯視國度・杜穆濟",
@@ -21860,8 +21860,8 @@ const cardData = {
         "attribute": 5,
         "race": 8,
         "rarity": 7,
-        "point": 0,
-        "reason": ""
+        "point": 70,
+        "reason": "少見的常駐+c，破攻前和轉版面的效果也都相當實用"
     },
     "2744": {
         "name": "晨曦嚮導・崔斯坦",
@@ -21964,8 +21964,8 @@ const cardData = {
         "attribute": 2,
         "race": 8,
         "rarity": 8,
-        "point": 0,
-        "reason": ""
+        "point": 60,
+        "reason": "原因：隊伍技轉出魔族珠，拿破崙隊伍中的大增傷，技二的控場效果也很有價值"
     },
     "2758": {
         "name": "孤星蒼儡・薩麥爾",
@@ -22620,7 +22620,7 @@ const cardData = {
         "attribute": 2,
         "race": 8,
         "rarity": 7,
-        "point": 0,
+        "point": 65,
         "reason": ""
     },
     "2840": {
@@ -22628,16 +22628,16 @@ const cardData = {
         "attribute": 3,
         "race": 8,
         "rarity": 7,
-        "point": 0,
-        "reason": ""
+        "point": 65,
+        "reason": "原因：巴龍隊不錯的解鎖選擇，並且同為宇宙序章給予的木兼具效果能減輕暗珠被針對的情況"
     },
     "2841": {
         "name": "概念衍生・道羅斯",
         "attribute": 4,
         "race": 4,
         "rarity": 7,
-        "point": 0,
-        "reason": ""
+        "point": 72,
+        "reason": "原因：巴龍隊伍中的常用隊員，破三五屬的同時還能給予不小的增傷效果，並且同為宇宙序章給予的光兼具效果能減輕暗珠被針對的情況"
     },
     "2842": {
         "name": "邏輯瓦解・阿撒托斯",
@@ -24804,8 +24804,8 @@ const cardData = {
         "attribute": 1,
         "race": 8,
         "rarity": 6,
-        "point": 0,
-        "reason": ""
+        "point": 50,
+        "reason": "原因：常駐排珠+追打身旁屬性，缺點是秒數較短以及拿破崙隊伍中沒有自產魔族珠"
     },
     "10102": {
         "name": "專業兔醫・比涅希",
@@ -25572,8 +25572,8 @@ const cardData = {
         "attribute": 1,
         "race": 4,
         "rarity": 6,
-        "point": 0,
-        "reason": ""
+        "point": 70,
+        "reason": "原因：解暴風、兩回合排珠、以及龍族需要回血，適合給手轉能力較弱的玩家處理紅綠燈之類的敵技，並且在龍隊中技能論轉速度極快"
     },
     "10198": {
         "name": "狐靈召來・安倍悟",
@@ -26468,8 +26468,8 @@ const cardData = {
         "attribute": 2,
         "race": 3,
         "rarity": 6,
-        "point": 0,
-        "reason": ""
+        "point": 86,
+        "reason": "原因：技一是好用的無條件解碎裂，同時可以解累積珠數盾，技二則是外加控場的四倍增傷，不只在拿破崙和全牛棚隊伍中都相當好用，甚至自己也可以是解妖精成就的隊長選擇"
     },
     "10311": {
         "name": "冰與火之心 · 辛西亞",
@@ -27268,8 +27268,8 @@ const cardData = {
         "attribute": 1,
         "race": 1,
         "rarity": 6,
-        "point": 0,
-        "reason": ""
+        "point": 70,
+        "reason": "原因：稀有的防灼熱主動，自身當隊長在孱弱的水屬中也仍有一戰之力"
     },
     "10418": {
         "name": "始計忍・百地颯",
