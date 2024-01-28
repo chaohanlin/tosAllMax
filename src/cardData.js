@@ -12532,7 +12532,7 @@ const cardData = {
         "attribute": 4,
         "race": 4,
         "rarity": 7,
-        "point": 45,
+        "score": 45,
         "reason": "原因：一回合強擋死，極限昇華後，還可以龍族緩龍隊對磨能力的問題，缺點是cd略長",
         "value": [[2842,5]]
 
@@ -24494,7 +24494,7 @@ const cardData = {
         "attribute": 2,
         "race": 5,
         "rarity": 8,
-        "point": 52,
+        "score": 52,
         "reason": "原因：神族的超大型增傷，並且可以配合處理屬性攻擊次數盾，在純火神隊中也能有撐血的效果，未來抽到複製還可以換最多的精魄",
         "value":[[2595,10]]
     },
@@ -28536,7 +28536,7 @@ const cardData = {
         "race": 5,
         "rarity": 6,
         "score": 45,
-        "reason": "",
+        "reason": "指定禁珠可以穩定處理消珠曾抗這種麻煩的敵技，添加加護珠的效果也能讓移除類型的定版發揮效用",
         "value": [[10450,10]]
     },
     "10172": {
@@ -29507,7 +29507,7 @@ const cardData = {
         "attribute": 2,
         "race": 5,
         "rarity": 6,
-        "point": 71,
+        "score": 71,
         "reason": "原因：尊爵不凡的火神進場cd-3隊伍技，還帶有追打光暗、破攻前、無視連擊同等、複製版面效果的多功能瑞士刀",
         "value": [[2595,4]]
     },
