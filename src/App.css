@@ -36,6 +36,12 @@ button {
   border-radius: 5px;
   background-color: #3498db;
   color: #fff;
+  transition: background-color .4s ease, color .4s ease;
+}
+
+button:disabled {
+  background-color: #133b55;
+  color: #bbb;
 }
 
 .matching-keys-container {
