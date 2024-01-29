@@ -90,6 +90,17 @@ th, td {
   flex-grow: 1;
 }
 
+.card-info {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  z-index: 9;
+  margin-right: 5px;
+}
+
 #imgCover {
   display: flex;
   margin: -18px 0px 10px 0px;
