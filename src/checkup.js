@@ -1,5 +1,6 @@
 import { useState, useRef, useMemo, createContext, useContext } from 'react';
 import axios from 'axios';
+import cardData from "./cardData";
 
 const [uid, auth] = ['1014220395', '455850'];
 
@@ -51,6 +52,9 @@ const Provider = ({children}) => {
     });
     return entries;
   }, [inventory]);
+  const inventorySet = useMemo(() => {
+    return new Set(inventory?.cards.map(card => card.id));
+  }, [inventory]);
 
   const queryInventory = async targetUid => {
     if(commonToken.current === undefined) {
@@ -63,12 +67,12 @@ const Provider = ({children}) => {
     setInventory(await getInventory(token, targetUid));
   }
 
-  const hasCard = (id, minLv=0, minSlv=0, minEnhance=0) => {
-    if(id in reducedInventory) {
-      return (reducedInventory[id].lv >= minLv
-        && reducedInventory[id].slv >= minSlv
-        && reducedInventory[id].enhance >= minEnhance);
+  const hasCard = (id) => {
+    // type of id may be string
+    if(id in cardData) {
+      return inventorySet.has(parseInt(id)) || cardData[id].equivalences.some(eqId => inventorySet.has(eqId));
     }
+    console.log(id);
     return false;
   }
 

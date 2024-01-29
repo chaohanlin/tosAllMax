@@ -111,3 +111,24 @@ th, td {
 #td_left {
   text-align: left;
 }
+
+img.float-score__card-icon {
+  width: 40px;
+  border-radius: 9%;
+}
+
+img.float-score__card-icon--disabled {
+  filter: grayscale(1);
+}
+
+span.float-score__card:not(:last-child) {
+  margin-right: .5em;
+}
+
+span.float-score__variation--enabled {
+  color: yellow;
+}
+
+span.float-score__variation--disabled {
+  color: gray;
+}

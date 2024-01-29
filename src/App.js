@@ -9,18 +9,18 @@ console.log('AM可選總數：', AM_card.length);
 // var typeCountAll = {}, typeCountHas = {};
 
 function CardInfo({ card, cardInfoRef, style }) {
+  const {hasCard, inventory} = useCheckup();
   return (
     <div className="card-info" ref={cardInfoRef} style={style}>
-      <strong>擁有以下卡片分數浮動</strong><hr/>
+      <strong>{inventory === undefined && "會"}因以下卡片而改變分數</strong><hr/>
       {cardData[card]?.value.map(([value, quantity], i) => (
-        <span key={value}>
+        <span className="float-score__card" key={value}>
           <img
             src={`https://web-assets.tosconfig.com/gallery/icons/${String(value).padStart(4, '0')}.jpg`}
             alt={value}
-            style={{ width: '40px', borderRadius: '9%' }}
+            className={`float-score__card-icon ${!(hasCard(value) || inventory === undefined) && "float-score__card-icon--disabled"}`}
           />
-          {quantity >= 0 ? `+${quantity}` : quantity}
-          {i < cardData[card]?.value.length - 1 && ' '}
+          <span className={`float-score__variation ${hasCard(value) ? "float-score__variation--enabled" : inventory !== undefined && "float-score__variation--disabled"}`}>{quantity >= 0 ? `+${quantity}` : quantity}</span>
         </span>
       ))}
     </div>
