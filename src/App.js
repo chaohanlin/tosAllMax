@@ -86,7 +86,6 @@ const App = () => {
     else if (!auth.match(/^\d{6}$/)) window.alert('請輸入正確的驗證碼')
     else {
       try {
-        notMatchingKeys.length = 0
         setLoadingInventory(true);
         await updateInventory(uid, auth);
         window.alert('更新成功！')
