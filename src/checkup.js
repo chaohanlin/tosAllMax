@@ -1,4 +1,4 @@
-import { useState, useRef, useMemo, createContext, useContext } from 'react';
+import { useState, useRef, useMemo, useCallback, createContext, useContext } from 'react';
 import axios from 'axios';
 import cardData from "./cardData";
 
@@ -67,14 +67,13 @@ const Provider = ({children}) => {
     setInventory(await getInventory(token, targetUid));
   }
 
-  const hasCard = (id) => {
+  const hasCard = useCallback(id => {
     // type of id may be string
     if(id in cardData) {
       return inventorySet.has(parseInt(id)) || cardData[id].equivalences.some(eqId => inventorySet.has(eqId));
     }
-    // console.log(id);
     return false;
-  }
+  }, [inventorySet]);
 
   return (
     <CheckupContext.Provider

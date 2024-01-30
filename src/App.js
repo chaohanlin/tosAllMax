@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useMemo } from 'react';
 import Provider, { useCheckup } from './checkup';
 import cardData from './cardData';
 import './App.css';
@@ -34,7 +34,7 @@ const App = () => {
   const { queryInventory, updateInventory, hasCard, inventory } = useCheckup();
   const [loadingInventory, setLoadingInventory] = useState(false);
   // const [matchingKeys, setMatchingKeys] = useState([]);
-  const [notMatchingKeys, setNotMatchingKeys] = useState([]);
+  const notMatchingKeys = useMemo(() => AM_pool.filter(key => !hasCard(key)), [hasCard]);
   const [uid, setUid] = useState('');
   const [auth, setAuth] = useState('');
   const [displayCount, setDisplayCount] = useState(15);
@@ -131,10 +131,6 @@ const App = () => {
     // 使用初版AM資料的篩選
     setNotMatchingKeys(AM_card.map(subArray => subArray[subArray.length-1]));
   };*/
-
-  useEffect(() => {
-    setNotMatchingKeys(AM_pool.filter(key => !hasCard(key)));
-  }, [inventory, hasCard]);
 
   let resultKey = [];
   notMatchingKeys.forEach(key => {
