@@ -12,9 +12,13 @@ for(const key in cardData) {
   else {
     ratedCardData[key] = {
       ...cardData[key],
+      // 原則上不需要這些多餘的資料
+      // 出任何問題的話，請先去檢查哪裡該加 ?? 或 ?.
+      /*
       score: 0,
       reason: "",
       value: []
+      */
     }
   }
 }

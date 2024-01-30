@@ -17,7 +17,7 @@ function CardInfo({ card, cardInfoRef, style }) {
   return (
     <div className="card-info" ref={cardInfoRef} style={style}>
       <strong>{inventory === undefined && "會"}因以下卡片而改變分數</strong><hr/>
-      {cardData[card]?.value.map(([value, quantity], i) => (
+      {(cardData[card]?.value ?? []).map(([value, quantity], i) => (
         <span className="float-score__card" key={value}>
           <img
             src={`https://web-assets.tosconfig.com/gallery/icons/${String(value).padStart(4, '0')}.jpg`}
@@ -133,6 +133,7 @@ const App = () => {
     setNotMatchingKeys(AM_card.map(subArray => subArray[subArray.length-1]));
   };*/
 
+  /*
   let resultKey = [];
   notMatchingKeys.forEach(key => {
     if (cardData.hasOwnProperty(key)) {
@@ -150,6 +151,24 @@ const App = () => {
   .slice()
   .sort((a, b) => b[1] - a[1] || b[0] - a[0])  // [1]分數相同時，以[0]卡片ID決定順序
   .slice(0, displayCount);
+  */
+  const resultKey = useMemo(() => {
+    return notMatchingKeys  // AM可選列表中，玩家未持有的卡
+      .filter(cardId => cardId in cardData)  // 預防AM pool設定錯誤或資料有誤
+      .map(cardId => {  // cardId -> [cardId, score]
+        // 初始分數
+        let score = cardData[cardId].score ?? 0;
+        // 條件式分數變化
+        cardData[cardId].value?.forEach(([conditionCardId, variation]) => {
+          if(hasCard(conditionCardId)) {
+            score += variation;
+          }
+        });
+        return [cardId, score];
+      })
+      .sort((a, b) => b[1]-a[1] || b[0]-a[0])  // 以分數排序，同分時以卡片ID排序
+      .slice(0, displayCount);  // 只顯示前displayCount個結果
+  }, [notMatchingKeys, hasCard, displayCount]);
 
   const imgUrlAttr = (attribute) => {
     switch (attribute) {
