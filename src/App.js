@@ -43,7 +43,7 @@ const App = () => {
   const cardInfoRef = useRef(null);
 
   useEffect(() => {
-    handleResult();
+    // handleResult();
     const handleCardInfoClick = (event) => {
       if (cardInfoRef.current && !cardInfoRef.current.contains(event.target)) {
         setShowCardInfo(null);
@@ -102,8 +102,8 @@ const App = () => {
   };
 
   // 已棄用
-  const handleResult = async () => {
-    /* var foundKeys = [], notFoundKeys = [];
+  /* const handleResult = async () => {
+    var foundKeys = [], notFoundKeys = [];
     typeCountAll = {};
     typeCountHas = {};
     AM_card.map(subArray => subArray[subArray.length-1]).forEach(key => {
@@ -113,14 +113,12 @@ const App = () => {
         if (typeCountAll[type] === undefined) typeCountAll[type] = 1;
         else typeCountAll[type]++;
       }
-    });*/
-    /*
-    // 使用舊版AM資料的篩選
+    });
+    // 使用初版AM資料的篩選
     for (const key in cardData)
       if (hasCard(key)) 
         AM_card = AM_card.filter((subArray) => !subArray.includes(parseInt(key, 10)));
-    */
-    /* setMatchingKeys(foundKeys);
+    setMatchingKeys(foundKeys);
     foundKeys.forEach(key => {
       if (cardData.hasOwnProperty(key)) {
         const type = cardData[key].attribute * 100 + cardData[key].race;
@@ -128,12 +126,11 @@ const App = () => {
         else typeCountHas[type]++;
       }
     });
-    console.log(typeCountAll, typeCountHas);*/
-    /*
-    // 使用舊版AM資料的篩選
+    console.log(typeCountAll, typeCountHas);
+    // 使用初版AM資料的篩選
     setNotMatchingKeys(AM_card.map(subArray => subArray[subArray.length-1]));
-    */
-  };
+  };*/
+
   useEffect(() => {
     setNotMatchingKeys(AM_pool.filter(key => !hasCard(key)));
   }, [inventory, hasCard]);
@@ -203,7 +200,31 @@ const App = () => {
             alt="imgCover"
             style={{ maxWidth: '500px', width: '100%' }}
           />
-        </div> 
+        </div>
+        <small style={{ textAlign: 'center', marginBottom: '13px' }}>
+          評價者：微醺盜賊
+          &nbsp;<a href="https://forum.gamer.com.tw/Co.php?bsn=23805&sn=4096563" target="_blank" rel="noopener noreferrer">
+            <img
+              src={`https://hiteku.github.io/img/-/bahamut.png`}
+              alt="imgCover"
+              style={{ maxWidth: '15px', width: '100%', marginBottom: '-2px' }}
+            />
+          </a>
+          &nbsp;<a href="https://www.youtube.com/@user-oq4nb1df7w" target="_blank" rel="noopener noreferrer">
+            <img
+              src={`https://hiteku.github.io/img/-/youtube.png`}
+              alt="imgCover"
+              style={{ maxWidth: '15px', width: '100%', marginBottom: '-2px' }}
+            />
+          </a>
+          &nbsp;<a href="https://github.com/chaohanlin/tosAllMax" target="_blank" rel="noopener noreferrer">
+            <img
+              src={`https://hiteku.github.io/img/-/github.png`}
+              alt="imgCover"
+              style={{ maxWidth: '15px', width: '100%', marginBottom: '-2px' }}
+            />
+          </a>
+        </small>
         <label>
           UID<input type="text" value={uid} onChange={(e) => setUid(e.target.value)} />
           <button onClick={handleImport} disabled={loadingInventory}>匯入背包</button>
@@ -212,31 +233,32 @@ const App = () => {
           活動驗證碼<input type="text" value={auth} onChange={(e) => setAuth(e.target.value)} />
           <button onClick={handleUpdate} disabled={loadingInventory}>重新獲取</button>
         </label>
-        {(inventory !== undefined && !loadingInventory) && (
-          <label>
-            {inventory?._id}
-            &nbsp;的背包最後更新於&nbsp;
-            <output>{new Date(inventory?.cardsUpdatedAt).toLocaleString()}</output>
-          </label>
-        )}
-        {loadingInventory && (
-          <label>正在讀取背包資料…</label>
-        )}
-        <label>
-          <div className="custom-select-container">
-            <div className="warning-text">
-              {/*<button onClick={handleResult}>更新列表</button>*/}
-              <small style={{ textAlign: 'right' }}>評價者：<a className="src" href="https://www.youtube.com/@user-oq4nb1df7w/videos" target="_blank" rel="noreferrer">微醺盜賊</a></small>
-              {/* ⚠️數字僅供參考，必中為 ≤５。但若開過圖鑑後刪除，或擁有進化前的不在此考量，審慎選擇。 */}
+        <div className="custom-select-container">
+          {/* <div className="warning-text">
+            <button onClick={handleResult}>更新列表</button>
+            ⚠️數字僅供參考，必中為 ≤５。但若開過圖鑑後刪除，或擁有進化前的不在此考量，審慎選擇。
+          </div> */}
+          {((inventory !== undefined && !loadingInventory) && (
+            <label>
+              {inventory?._id}
+              &nbsp;的背包最後更新於&nbsp;
+              <output>{new Date(inventory?.cardsUpdatedAt).toLocaleString(undefined, { hour12: false })}</output>
+            </label>
+          )) || (loadingInventory && (
+            <div className="loader-container">
+              <div className="loader"></div>
+              <label>正在讀取背包資料…</label>
             </div>
-            <select className="custom-select" value={displayCount} onChange={handleSelectChange}>
-              <option value={15}>15</option>
-              <option value={50}>50</option>
-              <option value={100}>100</option>
-              <option value={376}>376</option>
-            </select>
-          </div>
-        </label>
+          )) || (
+            <span>　</span>
+          )}
+          <select className="custom-select" value={displayCount} onChange={handleSelectChange}>
+            <option value={15}>15</option>
+            <option value={50}>50</option>
+            <option value={100}>100</option>
+            <option value={376}>376</option>
+          </select>
+        </div>
       </div>
 
       <div className="matching-keys-container">
