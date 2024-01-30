@@ -72,7 +72,7 @@ const Provider = ({children}) => {
     if(id in cardData) {
       return inventorySet.has(parseInt(id)) || cardData[id].equivalences.some(eqId => inventorySet.has(eqId));
     }
-    console.log(id);
+    // console.log(id);
     return false;
   }
 
