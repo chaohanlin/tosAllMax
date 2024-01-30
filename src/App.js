@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect, useMemo } from 'react';
+import Markdown from 'react-markdown';
 import Provider, { useCheckup } from './checkup';
 import cardData from './cardData';
 import './App.css';
@@ -296,7 +297,7 @@ const App = () => {
                       style={{ width: '25px' }}
                     />
                   </td>
-                  <td id="td_left">{score === 0 ? '暫無評' : score}分</td>
+                  <td className="card-list__score">{score === 0 ? '暫無評' : score}分</td>
                 </tr>
                 <tr>
                   <td colSpan="2">
@@ -307,7 +308,13 @@ const App = () => {
                       return isNaN(result) ? typeCountAll[type] : result;
                     })()*/}
                   </td>
-                  <td rowSpan="2" id="td_left" dangerouslySetInnerHTML={{ __html: cardData[key]?.reason }}></td>
+                  <td rowSpan="2" className="card-list__reason">
+                    {/*
+                      在reason中讓markdown換行的格式：兩個空白後面加上\n
+                      粗體字的格式：**粗體字**
+                    */}
+                    <Markdown>{cardData[key]?.reason}</Markdown>
+                  </td>
                 </tr>
                 <tr>
                   <td colSpan="3">{cardData[key]?.name}</td>
