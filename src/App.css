@@ -142,8 +142,12 @@ th, td {
   align-items: center;
 }
 
-#td_left {
+td.card-list__reason, td.card-list__score {
   text-align: left;
+}
+
+td.card-list__reason strong {
+  color: #ffc;
 }
 
 img.float-score__card-icon {
