@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/tosAllMax/static/css/main.a75bde69.css",
-    "main.js": "/tosAllMax/static/js/main.83fdebfe.js",
+    "main.js": "/tosAllMax/static/js/main.03abff00.js",
     "index.html": "/tosAllMax/index.html",
     "main.a75bde69.css.map": "/tosAllMax/static/css/main.a75bde69.css.map",
-    "main.83fdebfe.js.map": "/tosAllMax/static/js/main.83fdebfe.js.map"
+    "main.03abff00.js.map": "/tosAllMax/static/js/main.03abff00.js.map"
   },
   "entrypoints": [
     "static/css/main.a75bde69.css",
-    "static/js/main.83fdebfe.js"
+    "static/js/main.03abff00.js"
   ]
 }
