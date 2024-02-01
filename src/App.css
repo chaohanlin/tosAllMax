@@ -142,8 +142,19 @@ th, td {
   align-items: center;
 }
 
-td.card-list__reason, td.card-list__score {
+td.card-list__reason, td.card-list__score, td.card-list__have-all {
   text-align: left;
+}
+
+@keyframes rainbow-text {
+  0% { color: #fdd; }
+  33% { color: #dfd; }
+  66% { color: #ddf; }
+  100% { color: #fdd; }
+}
+td.card-list__have-all > div.rainbow-title {
+  margin-bottom: .3em;
+  animation: rainbow-text 10s infinite;
 }
 
 td.card-list__reason strong {

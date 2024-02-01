@@ -357,6 +357,21 @@ const App = () => {
         ))} */}
         </>
       )}
+      {(notMatchingKeys.length === 0 && inventory !== undefined) && (
+        <table>
+          <tbody>
+            <tr>
+              <td className="card-list__have-all">
+                <div className="rainbow-title">
+                  你已經持有所有All Max可選的卡片！
+                </div>
+                請隨喜好選擇想複製的卡片。<br />
+                本次All Max自選機會將在{new Date(1924876800000).toLocaleDateString()}到期。
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      )}
       </div>
     </div>
   );
