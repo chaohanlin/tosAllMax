@@ -208,6 +208,10 @@ const App = () => {
     }
   };
 
+  // 判定時間是距離現在超過30天
+  // 2592000000 = 30*24*60*60*1000 (ms)
+  const needTimeWarning = time => new Date().getTime() - new Date(time).getTime() > 2592000000;
+
   return (
     <div className="app-container">
       <div className="popup-container">
@@ -259,7 +263,7 @@ const App = () => {
             <label>
               {inventory?._id}
               &nbsp;的背包最後更新於&nbsp;
-              <output>{new Date(inventory?.cardsUpdatedAt).toLocaleString(undefined, { hour12: false })}</output>
+              <output className={`inventory-info__update-time${needTimeWarning(inventory?.cardsUpdatedAt) ? "--warning" : ""}`}>{new Date(inventory?.cardsUpdatedAt).toLocaleString(undefined, { hour12: false })}</output>
             </label>
           )) || (loadingInventory && (
             <div className="loader-container">

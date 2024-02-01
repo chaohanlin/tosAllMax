@@ -170,3 +170,7 @@ span.float-score__variation--enabled {
 span.float-score__variation--disabled {
   color: gray;
 }
+
+output.inventory-info__update-time--warning {
+  color: #f88;
+}
