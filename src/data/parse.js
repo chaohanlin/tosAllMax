@@ -93,7 +93,7 @@ monsters.forEach(entry => {
     attribute: cardAttr,
     race: cardRace,
     rarity: cardRarity,
-    materialLevel2: cardALMaterial === 2 || undefined,  // Level 1 = 90精魄
+    materialLevel2: cardALMaterial === 2 || undefined,  // Level 2 = 90精魄
     equivalences: [...eqSet]
   };
 });
