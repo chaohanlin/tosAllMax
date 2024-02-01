@@ -9,7 +9,10 @@ const AM_pool_2024 = [597, 2796, 1041, 1336, 2041, 2259, 2274, 2740, 2766, 2762,
 // 方便保留往年資料或使用其他測試資料
 const AM_pool = AM_pool_2024;
 const AM_total = AM_pool.length
-console.log('AM可選總數：', AM_total);
+if(process.env.NODE_ENV !== "production") {
+  // 只在開發過程中顯示
+  console.log('AM可選總數：', AM_total);
+}
 // var typeCountAll = {}, typeCountHas = {};
 
 function CardInfo({ card, cardInfoRef, style }) {
@@ -170,6 +173,21 @@ const App = () => {
       .slice(0, displayCount);  // 只顯示前displayCount個結果
   }, [notMatchingKeys, hasCard, displayCount]);
 
+  const highestMaterialCandidate = useMemo(() => {
+    const recordedAttributes = new Set();
+    const result = [null, 0, 0, 0, 0, 0];
+    AM_pool.some(cardId => {
+      const data = cardData?.[cardId];
+      if(data === undefined) return false;
+      if(data.materialLevel2 && !recordedAttributes.has(data.attribute)) {
+        result[data.attribute] = cardId;
+        recordedAttributes.add(data.attribute);
+      }
+      return recordedAttributes.size >= 5;
+    });
+    return result.slice(1);
+  }, []);
+
   const imgUrlAttr = (attribute) => {
     switch (attribute) {
       case 1:
@@ -320,7 +338,7 @@ const App = () => {
                       style={{ width: '25px' }}
                     />
                   </td>
-                  <td className="card-list__score">{score === 0 ? '暫無評' : score}分</td>
+                  <td className="card-list--left-align card-list__score">{score === 0 ? '暫無評' : score}分</td>
                 </tr>
                 <tr>
                   <td colSpan="2">
@@ -331,7 +349,7 @@ const App = () => {
                       return isNaN(result) ? typeCountAll[type] : result;
                     })()*/}
                   </td>
-                  <td rowSpan="2" className="card-list__reason">
+                  <td rowSpan="2" className="card-list--left-align card-list__reason">
                     {/*
                       在reason中讓markdown換行的格式：兩個空白後面加上\n
                       粗體字的格式：**粗體字**
@@ -361,12 +379,18 @@ const App = () => {
         <table>
           <tbody>
             <tr>
-              <td className="card-list__have-all">
+              <td className="card-list--left-align">
                 <div className="rainbow-title">
                   你已經持有所有All Max可選的卡片！
                 </div>
                 請隨喜好選擇想複製的卡片。<br />
                 本次All Max自選機會將在{new Date(1924876800000).toLocaleDateString()}到期。
+              </td>
+            </tr>
+            <tr>
+              <td className="card-list--left-align">
+                90精魄候選：{highestMaterialCandidate.join(", ")}<br />
+                (WIP)
               </td>
             </tr>
           </tbody>

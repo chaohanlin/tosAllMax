@@ -142,7 +142,7 @@ th, td {
   align-items: center;
 }
 
-td.card-list__reason, td.card-list__score, td.card-list__have-all {
+td.card-list--left-align {
   text-align: left;
 }
 
@@ -152,7 +152,7 @@ td.card-list__reason, td.card-list__score, td.card-list__have-all {
   66% { color: #ddf; }
   100% { color: #fdd; }
 }
-td.card-list__have-all > div.rainbow-title {
+div.rainbow-title {
   margin-bottom: .3em;
   animation: rainbow-text 10s infinite;
 }

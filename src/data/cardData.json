@@ -1641,6 +1641,7 @@
     "attribute": 1,
     "race": 5,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "192": {
@@ -1648,6 +1649,7 @@
     "attribute": 1,
     "race": 5,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       191
     ]
@@ -1657,6 +1659,7 @@
     "attribute": 2,
     "race": 5,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "194": {
@@ -1664,6 +1667,7 @@
     "attribute": 2,
     "race": 5,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       193
     ]
@@ -1673,6 +1677,7 @@
     "attribute": 3,
     "race": 5,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "196": {
@@ -1680,6 +1685,7 @@
     "attribute": 3,
     "race": 5,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       195
     ]
@@ -1689,6 +1695,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "198": {
@@ -1696,6 +1703,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       197
     ]
@@ -1705,6 +1713,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "200": {
@@ -1712,6 +1721,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       199
     ]
@@ -1721,6 +1731,7 @@
     "attribute": 1,
     "race": 5,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "202": {
@@ -1728,6 +1739,7 @@
     "attribute": 1,
     "race": 5,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       201
     ]
@@ -1737,6 +1749,7 @@
     "attribute": 2,
     "race": 5,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "204": {
@@ -1744,6 +1757,7 @@
     "attribute": 2,
     "race": 5,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       203
     ]
@@ -1753,6 +1767,7 @@
     "attribute": 3,
     "race": 5,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "206": {
@@ -1760,6 +1775,7 @@
     "attribute": 3,
     "race": 5,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       205
     ]
@@ -1769,6 +1785,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "208": {
@@ -1776,6 +1793,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       207
     ]
@@ -1785,6 +1803,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "210": {
@@ -1792,6 +1811,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       209
     ]
@@ -1801,6 +1821,7 @@
     "attribute": 1,
     "race": 2,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "212": {
@@ -1808,6 +1829,7 @@
     "attribute": 1,
     "race": 2,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       211
     ]
@@ -1817,6 +1839,7 @@
     "attribute": 2,
     "race": 4,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "214": {
@@ -1824,6 +1847,7 @@
     "attribute": 2,
     "race": 4,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       213
     ]
@@ -1833,6 +1857,7 @@
     "attribute": 3,
     "race": 4,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "216": {
@@ -1840,6 +1865,7 @@
     "attribute": 3,
     "race": 4,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       215
     ]
@@ -1849,6 +1875,7 @@
     "attribute": 4,
     "race": 2,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "218": {
@@ -1856,6 +1883,7 @@
     "attribute": 4,
     "race": 2,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       217
     ]
@@ -1865,6 +1893,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "220": {
@@ -1872,6 +1901,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       219
     ]
@@ -1881,6 +1911,7 @@
     "attribute": 1,
     "race": 4,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "222": {
@@ -1888,6 +1919,7 @@
     "attribute": 1,
     "race": 4,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       221
     ]
@@ -1897,6 +1929,7 @@
     "attribute": 2,
     "race": 3,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "224": {
@@ -1904,6 +1937,7 @@
     "attribute": 2,
     "race": 1,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       223
     ]
@@ -1913,6 +1947,7 @@
     "attribute": 3,
     "race": 2,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "226": {
@@ -1920,6 +1955,7 @@
     "attribute": 3,
     "race": 2,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       225
     ]
@@ -1929,6 +1965,7 @@
     "attribute": 4,
     "race": 3,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "228": {
@@ -1936,6 +1973,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       227
     ]
@@ -1945,6 +1983,7 @@
     "attribute": 5,
     "race": 3,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "230": {
@@ -1952,6 +1991,7 @@
     "attribute": 5,
     "race": 3,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       229
     ]
@@ -4146,6 +4186,7 @@
     "attribute": 1,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       202,
       201
@@ -4156,6 +4197,7 @@
     "attribute": 2,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       204,
       203
@@ -4166,6 +4208,7 @@
     "attribute": 3,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       206,
       205
@@ -4176,6 +4219,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       208,
       207
@@ -4186,6 +4230,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       210,
       209
@@ -4850,6 +4895,7 @@
     "attribute": 1,
     "race": 4,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       222,
       221
@@ -4860,6 +4906,7 @@
     "attribute": 2,
     "race": 1,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       224,
       223
@@ -4870,6 +4917,7 @@
     "attribute": 3,
     "race": 2,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       226,
       225
@@ -4880,6 +4928,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       228,
       227
@@ -4890,6 +4939,7 @@
     "attribute": 5,
     "race": 3,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       230,
       229
@@ -5250,6 +5300,7 @@
     "attribute": 1,
     "race": 2,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       212,
       211
@@ -5260,6 +5311,7 @@
     "attribute": 2,
     "race": 4,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       214,
       213
@@ -5270,6 +5322,7 @@
     "attribute": 3,
     "race": 4,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       216,
       215
@@ -5280,6 +5333,7 @@
     "attribute": 4,
     "race": 2,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       218,
       217
@@ -5290,6 +5344,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       220,
       219
@@ -6500,6 +6555,7 @@
     "attribute": 1,
     "race": 5,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "802": {
@@ -6507,6 +6563,7 @@
     "attribute": 1,
     "race": 5,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       801
     ]
@@ -6516,6 +6573,7 @@
     "attribute": 2,
     "race": 5,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "804": {
@@ -6523,6 +6581,7 @@
     "attribute": 2,
     "race": 5,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       803
     ]
@@ -6532,6 +6591,7 @@
     "attribute": 3,
     "race": 5,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "806": {
@@ -6539,6 +6599,7 @@
     "attribute": 3,
     "race": 5,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       805
     ]
@@ -6548,6 +6609,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "808": {
@@ -6555,6 +6617,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       807
     ]
@@ -6564,6 +6627,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "810": {
@@ -6571,6 +6635,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       809
     ]
@@ -7616,6 +7681,7 @@
     "attribute": 1,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       192,
       191
@@ -7626,6 +7692,7 @@
     "attribute": 2,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       194,
       193
@@ -7636,6 +7703,7 @@
     "attribute": 3,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       196,
       195
@@ -7646,6 +7714,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       198,
       197
@@ -7656,6 +7725,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       200,
       199
@@ -8243,6 +8313,7 @@
     "attribute": 1,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1022,
       506,
@@ -8255,6 +8326,7 @@
     "attribute": 1,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       506,
       202,
@@ -8267,6 +8339,7 @@
     "attribute": 2,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1024,
       507,
@@ -8279,6 +8352,7 @@
     "attribute": 2,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       507,
       204,
@@ -8291,6 +8365,7 @@
     "attribute": 3,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1026,
       508,
@@ -8303,6 +8378,7 @@
     "attribute": 3,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       508,
       206,
@@ -8315,6 +8391,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1028,
       509,
@@ -8327,6 +8404,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       509,
       208,
@@ -8339,6 +8417,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1030,
       510,
@@ -8351,6 +8430,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       510,
       210,
@@ -8774,6 +8854,7 @@
     "attribute": 1,
     "race": 4,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1082,
       591,
@@ -8786,6 +8867,7 @@
     "attribute": 1,
     "race": 4,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       591,
       222,
@@ -8798,6 +8880,7 @@
     "attribute": 2,
     "race": 1,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1084,
       592,
@@ -8810,6 +8893,7 @@
     "attribute": 2,
     "race": 1,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       592,
       224,
@@ -8822,6 +8906,7 @@
     "attribute": 3,
     "race": 2,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1086,
       593,
@@ -8834,6 +8919,7 @@
     "attribute": 3,
     "race": 2,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       593,
       226,
@@ -8846,6 +8932,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1088,
       594,
@@ -8858,6 +8945,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       594,
       228,
@@ -8870,6 +8958,7 @@
     "attribute": 5,
     "race": 3,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1090,
       595,
@@ -8882,6 +8971,7 @@
     "attribute": 5,
     "race": 3,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       595,
       230,
@@ -9244,6 +9334,7 @@
     "attribute": 1,
     "race": 5,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "1137": {
@@ -9251,6 +9342,7 @@
     "attribute": 1,
     "race": 5,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       1136
     ]
@@ -9260,6 +9352,7 @@
     "attribute": 2,
     "race": 5,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "1139": {
@@ -9267,6 +9360,7 @@
     "attribute": 2,
     "race": 5,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       1138
     ]
@@ -9276,6 +9370,7 @@
     "attribute": 3,
     "race": 5,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "1141": {
@@ -9283,6 +9378,7 @@
     "attribute": 3,
     "race": 5,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       1140
     ]
@@ -9292,6 +9388,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "1143": {
@@ -9299,6 +9396,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       1142
     ]
@@ -9308,6 +9406,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 5,
+    "materialLevel2": true,
     "equivalences": []
   },
   "1145": {
@@ -9315,6 +9414,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 6,
+    "materialLevel2": true,
     "equivalences": [
       1144
     ]
@@ -9856,6 +9956,7 @@
     "attribute": 1,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       802,
       801
@@ -9866,6 +9967,7 @@
     "attribute": 2,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       804,
       803
@@ -9876,6 +9978,7 @@
     "attribute": 3,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       806,
       805
@@ -9886,6 +9989,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       808,
       807
@@ -9896,6 +10000,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       810,
       809
@@ -11096,6 +11201,7 @@
     "attribute": 1,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1357,
       941,
@@ -11108,6 +11214,7 @@
     "attribute": 1,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       941,
       192,
@@ -11120,6 +11227,7 @@
     "attribute": 2,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1359,
       942,
@@ -11132,6 +11240,7 @@
     "attribute": 2,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       942,
       194,
@@ -11144,6 +11253,7 @@
     "attribute": 3,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1361,
       943,
@@ -11156,6 +11266,7 @@
     "attribute": 3,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       943,
       196,
@@ -11168,6 +11279,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1363,
       944,
@@ -11180,6 +11292,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       944,
       198,
@@ -11192,6 +11305,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1365,
       945,
@@ -11204,6 +11318,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       945,
       200,
@@ -11301,6 +11416,7 @@
     "attribute": 1,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1137,
       1136
@@ -11311,6 +11427,7 @@
     "attribute": 2,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1139,
       1138
@@ -11321,6 +11438,7 @@
     "attribute": 3,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1141,
       1140
@@ -11331,6 +11449,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1143,
       1142
@@ -11341,6 +11460,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1145,
       1144
@@ -11351,6 +11471,7 @@
     "attribute": 1,
     "race": 2,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1381,
       641,
@@ -11363,6 +11484,7 @@
     "attribute": 1,
     "race": 2,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       641,
       212,
@@ -11375,6 +11497,7 @@
     "attribute": 2,
     "race": 4,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1383,
       642,
@@ -11387,6 +11510,7 @@
     "attribute": 2,
     "race": 4,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       642,
       214,
@@ -11399,6 +11523,7 @@
     "attribute": 3,
     "race": 4,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1385,
       643,
@@ -11411,6 +11536,7 @@
     "attribute": 3,
     "race": 4,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       643,
       216,
@@ -11423,6 +11549,7 @@
     "attribute": 4,
     "race": 2,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1387,
       644,
@@ -11435,6 +11562,7 @@
     "attribute": 4,
     "race": 2,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       644,
       218,
@@ -11447,6 +11575,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1389,
       645,
@@ -11459,6 +11588,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       645,
       220,
@@ -14696,6 +14826,7 @@
     "attribute": 1,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1822,
       1216,
@@ -14708,6 +14839,7 @@
     "attribute": 1,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1216,
       802,
@@ -14720,6 +14852,7 @@
     "attribute": 2,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1824,
       1217,
@@ -14732,6 +14865,7 @@
     "attribute": 2,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1217,
       804,
@@ -14744,6 +14878,7 @@
     "attribute": 3,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1826,
       1218,
@@ -14756,6 +14891,7 @@
     "attribute": 3,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1218,
       806,
@@ -14768,6 +14904,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1828,
       1219,
@@ -14780,6 +14917,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1219,
       808,
@@ -14792,6 +14930,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1830,
       1220,
@@ -14804,6 +14943,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": [
       1220,
       810,
@@ -15116,6 +15256,7 @@
     "attribute": 2,
     "race": 4,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": []
   },
   "1869": {
@@ -15123,6 +15264,7 @@
     "attribute": 3,
     "race": 3,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": []
   },
   "1870": {
@@ -15130,6 +15272,7 @@
     "attribute": 4,
     "race": 2,
     "rarity": 7,
+    "materialLevel2": true,
     "equivalences": []
   },
   "1871": {
@@ -16057,6 +16200,7 @@
     "attribute": 1,
     "race": 5,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1021,
       1022,
@@ -16070,6 +16214,7 @@
     "attribute": 2,
     "race": 5,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1023,
       1024,
@@ -16083,6 +16228,7 @@
     "attribute": 3,
     "race": 5,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1025,
       1026,
@@ -16096,6 +16242,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1027,
       1028,
@@ -16109,6 +16256,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1029,
       1030,
@@ -17431,6 +17579,7 @@
     "attribute": 1,
     "race": 4,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1081,
       1082,
@@ -17444,6 +17593,7 @@
     "attribute": 2,
     "race": 1,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1083,
       1084,
@@ -17457,6 +17607,7 @@
     "attribute": 3,
     "race": 2,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1085,
       1086,
@@ -17470,6 +17621,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1087,
       1088,
@@ -17483,6 +17635,7 @@
     "attribute": 5,
     "race": 3,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1089,
       1090,
@@ -19293,6 +19446,7 @@
     "attribute": 1,
     "race": 5,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1356,
       1357,
@@ -19306,6 +19460,7 @@
     "attribute": 2,
     "race": 5,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1358,
       1359,
@@ -19319,6 +19474,7 @@
     "attribute": 3,
     "race": 5,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1360,
       1361,
@@ -19332,6 +19488,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1362,
       1363,
@@ -19345,6 +19502,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1364,
       1365,
@@ -21571,6 +21729,7 @@
     "attribute": 1,
     "race": 5,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1821,
       1822,
@@ -21584,6 +21743,7 @@
     "attribute": 2,
     "race": 5,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1823,
       1824,
@@ -21597,6 +21757,7 @@
     "attribute": 3,
     "race": 5,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1825,
       1826,
@@ -21610,6 +21771,7 @@
     "attribute": 4,
     "race": 5,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1827,
       1828,
@@ -21623,6 +21785,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1829,
       1830,
@@ -22421,6 +22584,7 @@
     "attribute": 1,
     "race": 2,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1380,
       1381,
@@ -22434,6 +22598,7 @@
     "attribute": 2,
     "race": 4,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1382,
       1383,
@@ -22447,6 +22612,7 @@
     "attribute": 3,
     "race": 4,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1384,
       1385,
@@ -22460,6 +22626,7 @@
     "attribute": 4,
     "race": 2,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1386,
       1387,
@@ -22473,6 +22640,7 @@
     "attribute": 5,
     "race": 5,
     "rarity": 8,
+    "materialLevel2": true,
     "equivalences": [
       1388,
       1389,

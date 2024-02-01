@@ -10,6 +10,7 @@ const fs = require("fs");
 // [4]: 卡片屬性
 // [5]: 卡片星數
 // [51]: 異力轉換目標
+// [72]: 出售精魄數量類別
 // [76]: 卡片種類
 const monsters = JSON.parse(fs.readFileSync("monsters.json").toString()).data;
 // monsterEvolve.json
@@ -82,6 +83,7 @@ monsters.forEach(entry => {
   const cardRace = parseInt(cardRule[3]);
   const cardAttr = parseInt(cardRule[4]);
   const cardRarity = parseInt(cardRule[5]);
+  const cardALMaterial = parseInt(cardRule[72]);
 
   const eqSet = buildEqSet(new Set(), cardId);
   eqSet.delete(cardId);
@@ -91,6 +93,7 @@ monsters.forEach(entry => {
     attribute: cardAttr,
     race: cardRace,
     rarity: cardRarity,
+    materialLevel2: cardALMaterial === 2 || undefined,  // Level 1 = 90精魄
     equivalences: [...eqSet]
   };
 });
