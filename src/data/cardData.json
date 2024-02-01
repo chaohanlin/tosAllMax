@@ -23042,7 +23042,9 @@
     "attribute": 2,
     "race": 5,
     "rarity": 8,
-    "equivalences": []
+    "equivalences": [
+      2595
+    ]
   },
   "2900": {
     "name": "十年創紀・瘋頭",
@@ -28434,11 +28436,39 @@
     "rarity": 6,
     "equivalences": []
   },
+  "10611": {
+    "name": "異化的聖炎・巴哈姆特",
+    "attribute": 5,
+    "race": 4,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10613": {
+    "name": "猛鐮行軍・機械螞蟻",
+    "attribute": 2,
+    "race": 10,
+    "rarity": 6,
+    "equivalences": []
+  },
   "10615": {
     "name": "龍燃新歲・黑嘉嘉",
     "attribute": 2,
     "race": 4,
     "rarity": 6,
+    "equivalences": []
+  },
+  "10616": {
+    "name": "聖凡意志・普羅米修斯",
+    "attribute": 4,
+    "race": 5,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10617": {
+    "name": "琉彩晶結・尼祿",
+    "attribute": 3,
+    "race": 2,
+    "rarity": 7,
     "equivalences": []
   },
   "10618": {
