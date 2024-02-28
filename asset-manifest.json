@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tosAllMax/static/css/main.9b856bf5.css",
-    "main.js": "/tosAllMax/static/js/main.6fb2a122.js",
+    "main.css": "/tosAllMax/static/css/main.58cc685a.css",
+    "main.js": "/tosAllMax/static/js/main.898e9e35.js",
     "index.html": "/tosAllMax/index.html",
-    "main.9b856bf5.css.map": "/tosAllMax/static/css/main.9b856bf5.css.map",
-    "main.6fb2a122.js.map": "/tosAllMax/static/js/main.6fb2a122.js.map"
+    "main.58cc685a.css.map": "/tosAllMax/static/css/main.58cc685a.css.map",
+    "main.898e9e35.js.map": "/tosAllMax/static/js/main.898e9e35.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b856bf5.css",
-    "static/js/main.6fb2a122.js"
+    "static/css/main.58cc685a.css",
+    "static/js/main.898e9e35.js"
   ]
 }
