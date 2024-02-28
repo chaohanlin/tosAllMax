@@ -381,16 +381,26 @@ const App = () => {
             <tr>
               <td className="card-list--left-align">
                 <div className="rainbow-title">
-                  你已經持有所有All Max可選的卡片！
+                  你已經持有所有 All Max 可選的卡片！
                 </div>
                 請隨喜好選擇想複製的卡片。<br />
-                本次All Max自選機會將在{new Date(1716134340000).toLocaleDateString()}到期。
+                本次 All Max 自選機會將於 {new Date(1716134340000).toLocaleDateString()} 到期。
               </td>
             </tr>
             <tr>
               <td className="card-list--left-align">
-                90精魄候選：{highestMaterialCandidate.join(", ")}<br />
-                (WIP)
+                90精魄候選：
+                {highestMaterialCandidate.map((id, index) => (
+                  <React.Fragment key={index}>
+                    <img
+                      src={`https://web-assets.tosconfig.com/gallery/icons/${String(id).padStart(4, '0')}.jpg`}
+                      alt={`icon_${id}`}
+                      style={{ width: iconWidth + 'px', borderRadius: '9%' }}
+                    />
+                    {index !== highestMaterialCandidate.length - 1 && ' '}
+                  </React.Fragment>
+                ))}
+                <br />
               </td>
             </tr>
           </tbody>
