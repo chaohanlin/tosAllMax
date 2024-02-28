@@ -37,6 +37,7 @@ function CardInfo({ card, cardInfoRef, style }) {
 const App = () => {
   const { queryInventory, updateInventory, hasCard, inventory } = useCheckup();
   const [loadingInventory, setLoadingInventory] = useState(false);
+  const [importFail, setImportFail] = useState(false);
   // const [matchingKeys, setMatchingKeys] = useState([]);
   const notMatchingKeys = useMemo(() => AM_pool.filter(key => !hasCard(key)), [hasCard]);
   const [uid, setUid] = useState('');
@@ -77,9 +78,11 @@ const App = () => {
         setLoadingInventory(true);
         await queryInventory(uid);
         // notMatchingKeys.length = 0;
+        setImportFail(false);
         window.alert('匯入成功！')
       } catch (error) {
-        window.alert('匯入失敗，請確認有於神魔健檢中心公開背包。')
+        setImportFail(true);
+        window.alert('更新失敗，請確認輸入是否正確，且已於神魔健檢中心公開背包。')
       }
       setLoadingInventory(false);
     }
@@ -94,7 +97,7 @@ const App = () => {
         await updateInventory(uid, auth);
         window.alert('更新成功！')
       } catch (error) {
-        window.alert('更新失敗，請確認有於神魔健檢中心公開背包。')
+        window.alert('更新失敗，請確認輸入是否正確，且已於神魔健檢中心公開背包。')
       }
       setLoadingInventory(false);
     }
@@ -268,10 +271,13 @@ const App = () => {
           UID<input type="text" value={uid} onChange={(e) => setUid(e.target.value)} />
           <button onClick={handleImport} disabled={loadingInventory}>匯入背包</button>
         </label>
-        <label>
-          活動驗證碼<input type="text" value={auth} onChange={(e) => setAuth(e.target.value)} />
-          <button onClick={handleUpdate} disabled={loadingInventory}>重新獲取</button>
-        </label>
+        {importFail && (<details>
+          <summary style={{fontSize: '14px', marginTop: '-14px', marginBottom: '4px'}}>資料太舊？</summary>
+          <label>
+            活動驗證碼<input type="text" value={auth} onChange={(e) => setAuth(e.target.value)} />
+            <button onClick={handleUpdate} disabled={loadingInventory}>重新獲取</button>
+          </label>
+        </details>)}
         <div className="custom-select-container">
           {/* <div className="warning-text">
             <button onClick={handleResult}>更新列表</button>
