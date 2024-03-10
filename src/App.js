@@ -247,23 +247,23 @@ const App = () => {
           評價者：微醺盜賊
           &nbsp;<a href="https://forum.gamer.com.tw/Co.php?bsn=23805&sn=4096563" target="_blank" rel="noopener noreferrer">
             <img
-              src={`https://hiteku.github.io/img/-/bahamut.png`}
-              alt="imgCover"
-              style={{ maxWidth: '15px', width: '100%', marginBottom: '-2px' }}
+              src={`https://hiteku.fly.dev/static/assets/logo/bahamut.png`}
+              alt="imgBahamut"
+              style={{ maxWidth: '15px', width: '100%', marginBottom: '-2px', borderRadius: '9%' }}
             />
           </a>
           &nbsp;<a href="https://www.youtube.com/@user-oq4nb1df7w" target="_blank" rel="noopener noreferrer">
             <img
-              src={`https://hiteku.github.io/img/-/youtube.png`}
-              alt="imgCover"
-              style={{ maxWidth: '15px', width: '100%', marginBottom: '-2px' }}
+              src={`https://hiteku.fly.dev/static/assets/logo/youtube.png`}
+              alt="imgYoutube"
+              style={{ maxWidth: '15px', width: '100%', marginBottom: '-2px', borderRadius: '9%' }}
             />
           </a>
           &nbsp;<a href="https://github.com/chaohanlin/tosAllMax" target="_blank" rel="noopener noreferrer">
             <img
-              src={`https://hiteku.github.io/img/-/github.png`}
-              alt="imgCover"
-              style={{ maxWidth: '15px', width: '100%', marginBottom: '-2px' }}
+              src={`https://hiteku.fly.dev/static/assets/logo/github.png`}
+              alt="imgGithub"
+              style={{ maxWidth: '15px', width: '100%', marginBottom: '-2px', borderRadius: '9%' }}
             />
           </a>
         </small>
