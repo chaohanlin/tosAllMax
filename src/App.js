@@ -198,7 +198,7 @@ const App = () => {
       case 2:
         return 'fire';
       case 3:
-        return 'wood';
+        return 'earth';
       case 4:
         return 'light';
       case 5:
@@ -215,7 +215,7 @@ const App = () => {
       case 2:
         return 'beast';
       case 3:
-        return 'fairy';
+        return 'elf';
       case 4:
         return 'dragon';
       case 5:
@@ -223,7 +223,7 @@ const App = () => {
       case 8:
         return 'demon';
       case 10:
-        return 'machine';
+        return 'machina';
       default:
         return '';
     }
