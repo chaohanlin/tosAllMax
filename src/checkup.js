@@ -2,7 +2,7 @@ import { useState, useRef, useMemo, useCallback, createContext, useContext } fro
 import axios from 'axios';
 import cardData from "./cardData";
 
-const [uid, auth] = ['1014220395', '455850'];
+const [uid, auth] = ['1021737834', '205564'];
 
 async function getToken(uid, auth) {
   return await axios.post('https://website-api.tosgame.com/api/checkup/login', null, {
