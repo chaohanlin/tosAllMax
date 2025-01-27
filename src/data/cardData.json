@@ -16174,6 +16174,13 @@
     "rarity": 5,
     "equivalences": []
   },
+  "1997": {
+    "name": "苜蓿秘靈",
+    "attribute": 3,
+    "race": 7,
+    "rarity": 6,
+    "equivalences": []
+  },
   "1998": {
     "name": "Terence",
     "attribute": 5,
@@ -23046,6 +23053,292 @@
       2595
     ]
   },
+  "2864": {
+    "name": "吞天蓋世・青圭",
+    "attribute": 3,
+    "race": 4,
+    "rarity": 8,
+    "equivalences": [
+      2207
+    ]
+  },
+  "2865": {
+    "name": "蒼心斬災・青圭",
+    "attribute": 3,
+    "race": 4,
+    "rarity": 8,
+    "equivalences": []
+  },
+  "2866": {
+    "name": "仙濤逐邪・藍采和",
+    "attribute": 1,
+    "race": 1,
+    "rarity": 7,
+    "equivalences": [
+      1701
+    ]
+  },
+  "2867": {
+    "name": "雋功立權・曹國舅",
+    "attribute": 2,
+    "race": 5,
+    "rarity": 7,
+    "equivalences": [
+      1702
+    ]
+  },
+  "2868": {
+    "name": "凝陽帝君・鐵拐李",
+    "attribute": 3,
+    "race": 10,
+    "rarity": 7,
+    "equivalences": [
+      1703
+    ]
+  },
+  "2869": {
+    "name": "荷意娉婷・何仙姑",
+    "attribute": 4,
+    "race": 5,
+    "rarity": 7,
+    "equivalences": [
+      1704
+    ]
+  },
+  "2870": {
+    "name": "天遁劍芒・呂洞賓",
+    "attribute": 5,
+    "race": 5,
+    "rarity": 7,
+    "equivalences": [
+      1705
+    ]
+  },
+  "2871": {
+    "name": "至剛神勇・鍾離權",
+    "attribute": 2,
+    "race": 5,
+    "rarity": 7,
+    "equivalences": [
+      1706
+    ]
+  },
+  "2872": {
+    "name": "福獅藏殺・韓湘子",
+    "attribute": 3,
+    "race": 5,
+    "rarity": 7,
+    "equivalences": [
+      1707
+    ]
+  },
+  "2873": {
+    "name": "雲笈護術・張果老",
+    "attribute": 4,
+    "race": 5,
+    "rarity": 7,
+    "equivalences": [
+      1708
+    ]
+  },
+  "2874": {
+    "name": "鋒鳴捍護・鈴子",
+    "attribute": 5,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "2875": {
+    "name": "狂闇烙痕・柏得溫",
+    "attribute": 2,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "2876": {
+    "name": "無常五蘊・燃燈",
+    "attribute": 4,
+    "race": 5,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "2877": {
+    "name": "童貓氣概・零",
+    "attribute": 1,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "2878": {
+    "name": "殷紅戀歌・伊莉莎白",
+    "attribute": 2,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "2879": {
+    "name": "冰地追跡・多多",
+    "attribute": 5,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "2881": {
+    "name": "狂波萬頃・蓬托斯",
+    "attribute": 1,
+    "race": 5,
+    "rarity": 8,
+    "materialLevel2": true,
+    "equivalences": [
+      1375,
+      1137,
+      1136
+    ]
+  },
+  "2882": {
+    "name": "星輝炎原・法那斯",
+    "attribute": 2,
+    "race": 5,
+    "rarity": 8,
+    "materialLevel2": true,
+    "equivalences": [
+      1376,
+      1139,
+      1138
+    ]
+  },
+  "2883": {
+    "name": "繁木芬馥・蓋婭",
+    "attribute": 3,
+    "race": 5,
+    "rarity": 8,
+    "materialLevel2": true,
+    "equivalences": [
+      1377,
+      1141,
+      1140
+    ]
+  },
+  "2884": {
+    "name": "構建星淵・埃忒耳",
+    "attribute": 4,
+    "race": 5,
+    "rarity": 8,
+    "materialLevel2": true,
+    "equivalences": [
+      1378,
+      1143,
+      1142
+    ]
+  },
+  "2885": {
+    "name": "永冥夜暮・厄瑞玻斯",
+    "attribute": 5,
+    "race": 5,
+    "rarity": 8,
+    "materialLevel2": true,
+    "equivalences": [
+      1379,
+      1145,
+      1144
+    ]
+  },
+  "2886": {
+    "name": "迎風逐戰・阿爾法與貝塔",
+    "attribute": 5,
+    "race": 10,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "2887": {
+    "name": "形骸朱顔・白骨精",
+    "attribute": 2,
+    "race": 3,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "2888": {
+    "name": "魔方重塑・摩斯",
+    "attribute": 3,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "2889": {
+    "name": "寒域的恩眷・詩嘉古爾",
+    "attribute": 4,
+    "race": 5,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "2890": {
+    "name": "朔月葬魂・卑彌呼",
+    "attribute": 5,
+    "race": 1,
+    "rarity": 8,
+    "equivalences": [
+      2891,
+      2660
+    ]
+  },
+  "2891": {
+    "name": "月影傾天・卑彌呼",
+    "attribute": 5,
+    "race": 1,
+    "rarity": 8,
+    "equivalences": [
+      2660,
+      2890
+    ]
+  },
+  "2892": {
+    "name": "傭兵逐夢・費利克斯",
+    "attribute": 3,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "2893": {
+    "name": "權耀庇翼・梅塔特隆",
+    "attribute": 4,
+    "race": 5,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "2894": {
+    "name": "秩序重構・拉普拉斯",
+    "attribute": 4,
+    "race": 8,
+    "rarity": 8,
+    "equivalences": [
+      2480
+    ]
+  },
+  "2895": {
+    "name": "惑言噬愛・夏娃",
+    "attribute": 1,
+    "race": 8,
+    "rarity": 8,
+    "equivalences": [
+      2585
+    ]
+  },
+  "2896": {
+    "name": "魔心征服・巴力",
+    "attribute": 5,
+    "race": 8,
+    "rarity": 8,
+    "equivalences": [
+      2584
+    ]
+  },
+  "2897": {
+    "name": "嘯召立義・姬臣",
+    "attribute": 1,
+    "race": 4,
+    "rarity": 6,
+    "equivalences": []
+  },
   "2900": {
     "name": "十年創紀・瘋頭",
     "attribute": 1,
@@ -23054,7 +23347,7 @@
     "equivalences": []
   },
   "2901": {
-    "name": "載憶狐夢・妲己 ",
+    "name": "載憶狐夢・妲己",
     "attribute": 2,
     "race": 3,
     "rarity": 6,
@@ -23145,6 +23438,108 @@
       2911
     ]
   },
+  "2913": {
+    "name": "世界的恆律・法神姬氏",
+    "attribute": 1,
+    "race": 5,
+    "rarity": 8,
+    "equivalences": [
+      2914,
+      1188,
+      450
+    ]
+  },
+  "2914": {
+    "name": "冀望的理想鄉・法神姬氏",
+    "attribute": 1,
+    "race": 5,
+    "rarity": 8,
+    "equivalences": [
+      1188,
+      450,
+      2913
+    ]
+  },
+  "2915": {
+    "name": "三千界主・濕婆",
+    "attribute": 1,
+    "race": 5,
+    "rarity": 7,
+    "equivalences": [
+      1837,
+      1836
+    ]
+  },
+  "2916": {
+    "name": "寂滅吠陀・梵天",
+    "attribute": 2,
+    "race": 5,
+    "rarity": 7,
+    "equivalences": [
+      1839,
+      1838
+    ]
+  },
+  "2917": {
+    "name": "百葉盛觀・帕爾瓦蒂",
+    "attribute": 3,
+    "race": 5,
+    "rarity": 7,
+    "equivalences": [
+      1841,
+      1840
+    ]
+  },
+  "2918": {
+    "name": "無量蓮華・拉克什米",
+    "attribute": 4,
+    "race": 5,
+    "rarity": 7,
+    "equivalences": [
+      1843,
+      1842
+    ]
+  },
+  "2919": {
+    "name": "菩提心醒・毗濕奴",
+    "attribute": 5,
+    "race": 5,
+    "rarity": 7,
+    "equivalences": [
+      1845,
+      1844
+    ]
+  },
+  "2920": {
+    "name": "鄙惡無樂・伐樓那",
+    "attribute": 1,
+    "race": 5,
+    "rarity": 7,
+    "equivalences": [
+      1847,
+      1846
+    ]
+  },
+  "2921": {
+    "name": "怨憎梵火・阿耆尼",
+    "attribute": 2,
+    "race": 5,
+    "rarity": 7,
+    "equivalences": [
+      1849,
+      1848
+    ]
+  },
+  "2922": {
+    "name": "浪蕩劫濁・伐樓尼",
+    "attribute": 5,
+    "race": 5,
+    "rarity": 7,
+    "equivalences": [
+      1851,
+      1850
+    ]
+  },
   "3001": {
     "name": "野望滅絕・薩魯曼",
     "attribute": 5,
@@ -23230,9 +23625,11 @@
   "3010": {
     "name": "意識分解・夏馬西",
     "attribute": 1,
-    "race": 5,
+    "race": 10,
     "rarity": 8,
-    "equivalences": []
+    "equivalences": [
+      1871
+    ]
   },
   "3011": {
     "name": "滅絕晶玉",
@@ -26266,6 +26663,13 @@
     "rarity": 7,
     "equivalences": []
   },
+  "10289": {
+    "name": "耀輝小魔女",
+    "attribute": 4,
+    "race": 7,
+    "rarity": 4,
+    "equivalences": []
+  },
   "10290": {
     "name": "清涼一夏・神魔小妹",
     "attribute": 1,
@@ -26614,6 +27018,13 @@
     "attribute": 5,
     "race": 1,
     "rarity": 6,
+    "equivalences": []
+  },
+  "10340": {
+    "name": "滋味大腸包小腸",
+    "attribute": 2,
+    "race": 7,
+    "rarity": 3,
     "equivalences": []
   },
   "10341": {
@@ -28422,6 +28833,20 @@
     "rarity": 5,
     "equivalences": []
   },
+  "10606": {
+    "name": "魅綃剪翅・妖濤蜻蜓",
+    "attribute": 1,
+    "race": 3,
+    "rarity": 5,
+    "equivalences": []
+  },
+  "10607": {
+    "name": "日輪啟引・阿圖姆",
+    "attribute": 2,
+    "race": 10,
+    "rarity": 6,
+    "equivalences": []
+  },
   "10608": {
     "name": "清貧洗志・比干",
     "attribute": 5,
@@ -28436,6 +28861,13 @@
     "rarity": 6,
     "equivalences": []
   },
+  "10610": {
+    "name": "赤綃雲煙・紅娘",
+    "attribute": 2,
+    "race": 5,
+    "rarity": 6,
+    "equivalences": []
+  },
   "10611": {
     "name": "異化的聖炎・巴哈姆特",
     "attribute": 5,
@@ -28443,10 +28875,24 @@
     "rarity": 7,
     "equivalences": []
   },
+  "10612": {
+    "name": "馭蜂特工・史嘉蕾",
+    "attribute": 4,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
   "10613": {
     "name": "猛鐮行軍・機械螞蟻",
     "attribute": 2,
     "race": 10,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10614": {
+    "name": "遊山弈客・黑嘉嘉",
+    "attribute": 3,
+    "race": 2,
     "rarity": 6,
     "equivalences": []
   },
@@ -28474,6 +28920,1571 @@
   "10618": {
     "name": "聖源階台・塔維爾",
     "attribute": 1,
+    "race": 5,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10619": {
+    "name": "命運的交托・以諾與司路域",
+    "attribute": 5,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10620": {
+    "name": "貪嗔癡愛・潘金蓮",
+    "attribute": 1,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10621": {
+    "name": "桃鈴艷才・陳圓圓",
+    "attribute": 2,
+    "race": 3,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10622": {
+    "name": "紅顏敕令・林黛玉",
+    "attribute": 3,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10623": {
+    "name": "綺麗代價・趙飛燕",
+    "attribute": 4,
+    "race": 3,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10624": {
+    "name": "狂飆捕殺・上官婉兒",
+    "attribute": 5,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10625": {
+    "name": "竹華夢禍・孟姜女",
+    "attribute": 3,
+    "race": 3,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10626": {
+    "name": "崢嶸強梁・王英",
+    "attribute": 1,
+    "race": 1,
+    "rarity": 5,
+    "equivalences": []
+  },
+  "10627": {
+    "name": "巾幗女傑・扈三娘",
+    "attribute": 2,
+    "race": 1,
+    "rarity": 5,
+    "equivalences": []
+  },
+  "10628": {
+    "name": "驅役律令・賈寶玉",
+    "attribute": 5,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10629": {
+    "name": "禁斷戒途・西門慶",
+    "attribute": 2,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10630": {
+    "name": "聖神執傲・塞墨勒",
+    "attribute": 4,
+    "race": 5,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10631": {
+    "name": "睿博異瞳・布提斯",
+    "attribute": 3,
+    "race": 3,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10632": {
+    "name": "凜風主帥・波雷阿斯",
+    "attribute": 5,
+    "race": 5,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10633": {
+    "name": "睡夢精靈・眠眠",
+    "attribute": 4,
+    "race": 3,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10634": {
+    "name": "晨暉龍諭・里昂",
+    "attribute": 4,
+    "race": 4,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10635": {
+    "name": "天軸握殺・畸異生命",
+    "attribute": 3,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10636": {
+    "name": "緋村劍心",
+    "attribute": 2,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10637": {
+    "name": "相樂左之助",
+    "attribute": 3,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10638": {
+    "name": "神谷薰",
+    "attribute": 4,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10639": {
+    "name": "齋藤一",
+    "attribute": 5,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10640": {
+    "name": "三條燕",
+    "attribute": 2,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10641": {
+    "name": "明神彌彥",
+    "attribute": 3,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10642": {
+    "name": "高荷惠",
+    "attribute": 5,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10643": {
+    "name": "比留間喜兵衛與比留間伍兵衛",
+    "attribute": 3,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10644": {
+    "name": "鵜堂刃衛",
+    "attribute": 5,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10645": {
+    "name": "劊子手拔刀齋",
+    "attribute": 1,
+    "race": 1,
+    "rarity": 7,
+    "equivalences": [
+      10636
+    ]
+  },
+  "10646": {
+    "name": "壬生狼・齋藤一",
+    "attribute": 1,
+    "race": 1,
+    "rarity": 7,
+    "equivalences": [
+      10639
+    ]
+  },
+  "10647": {
+    "name": "石動雷十太",
+    "attribute": 2,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10648": {
+    "name": "月岡津南",
+    "attribute": 5,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10649": {
+    "name": "惡見",
+    "attribute": 1,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10650": {
+    "name": "火男",
+    "attribute": 2,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10651": {
+    "name": "式尉",
+    "attribute": 3,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10652": {
+    "name": "四乃森蒼紫",
+    "attribute": 4,
+    "race": 1,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10653": {
+    "name": "般若",
+    "attribute": 5,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10654": {
+    "name": "武田觀柳",
+    "attribute": 2,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10655": {
+    "name": "劍客警備官",
+    "attribute": 1,
+    "race": 1,
+    "rarity": 3,
+    "equivalences": []
+  },
+  "10656": {
+    "name": "軟嫩刈包",
+    "attribute": 3,
+    "race": 7,
+    "rarity": 3,
+    "equivalences": []
+  },
+  "10657": {
+    "name": "悖離航道・勞拉",
+    "attribute": 1,
+    "race": 10,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10658": {
+    "name": "星際巡邏・蒙大拿",
+    "attribute": 2,
+    "race": 10,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10659": {
+    "name": "鋼軀無懼・蒙大拿",
+    "attribute": 2,
+    "race": 10,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10660": {
+    "name": "正義掌舵・斯卡塔赫",
+    "attribute": 3,
+    "race": 10,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10661": {
+    "name": "銀河暸望・羅莎琳",
+    "attribute": 4,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10662": {
+    "name": "磁脈轟擊・克卜勒",
+    "attribute": 5,
+    "race": 10,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10663": {
+    "name": "永絕歸途・努亞達",
+    "attribute": 2,
+    "race": 10,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10664": {
+    "name": "械心慮世・伽瑪",
+    "attribute": 1,
+    "race": 10,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10665": {
+    "name": "炸裂波動・伽羅瓦",
+    "attribute": 2,
+    "race": 10,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10666": {
+    "name": "星雲離歌・西塔",
+    "attribute": 4,
+    "race": 10,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10667": {
+    "name": "無盡宇航・俄亥俄",
+    "attribute": 5,
+    "race": 10,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10668": {
+    "name": "奏響崩壞之音・莎娜",
+    "attribute": 1,
+    "race": 3,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10669": {
+    "name": "哈佛貓",
+    "attribute": 1,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10670": {
+    "name": "克洛怡貓",
+    "attribute": 2,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10671": {
+    "name": "詩蘭捷與大貓賈比爾",
+    "attribute": 3,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10672": {
+    "name": "天命之王佛挪",
+    "attribute": 4,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10673": {
+    "name": "漆黑魔女凱斯莉",
+    "attribute": 5,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10674": {
+    "name": "暴走姆特貓",
+    "attribute": 1,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10675": {
+    "name": "貓咪女王",
+    "attribute": 3,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10676": {
+    "name": "神",
+    "attribute": 4,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10677": {
+    "name": "真．拉斯沃斯",
+    "attribute": 5,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10678": {
+    "name": "蜜兒貓與阿飄貓",
+    "attribute": 4,
+    "race": 2,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10679": {
+    "name": "貓咪",
+    "attribute": 1,
+    "race": 2,
+    "rarity": 3,
+    "equivalences": []
+  },
+  "10680": {
+    "name": "坦克貓",
+    "attribute": 2,
+    "race": 2,
+    "rarity": 3,
+    "equivalences": []
+  },
+  "10681": {
+    "name": "戰鬥貓",
+    "attribute": 3,
+    "race": 2,
+    "rarity": 3,
+    "equivalences": []
+  },
+  "10682": {
+    "name": "黃金貓",
+    "attribute": 4,
+    "race": 2,
+    "rarity": 5,
+    "equivalences": []
+  },
+  "10683": {
+    "name": "出塵棋觀・黑嘉嘉",
+    "attribute": 1,
+    "race": 3,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10684": {
+    "name": "海月淚凝・黑嘉嘉",
+    "attribute": 1,
+    "race": 3,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10685": {
+    "name": "刺玫圍獵・黑嘉嘉",
+    "attribute": 2,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10686": {
+    "name": "弈理編寫・黑嘉嘉",
+    "attribute": 3,
+    "race": 10,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10687": {
+    "name": "險中探秘・幸子",
+    "attribute": 1,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10688": {
+    "name": "刀兵掠陣・黃帝",
+    "attribute": 3,
+    "race": 5,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10689": {
+    "name": "迷宮守捍・心魔小魚",
+    "attribute": 5,
+    "race": 3,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10690": {
+    "name": "山田淺右衛門仙汰",
+    "attribute": 1,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10691": {
+    "name": "畫眉丸",
+    "attribute": 2,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10692": {
+    "name": "山田淺右衛門佐切",
+    "attribute": 3,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10693": {
+    "name": "亞左弔兵衛",
+    "attribute": 4,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10694": {
+    "name": "山田淺右衛門桐馬",
+    "attribute": 5,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10695": {
+    "name": "山田淺右衛門典坐",
+    "attribute": 2,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10696": {
+    "name": "山田淺右衛門士遠",
+    "attribute": 3,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10697": {
+    "name": "山田淺右衛門付知",
+    "attribute": 4,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10698": {
+    "name": "奴凱",
+    "attribute": 1,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10699": {
+    "name": "陸郎太",
+    "attribute": 3,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10700": {
+    "name": "畫眉丸的妻子",
+    "attribute": 4,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10701": {
+    "name": "杠",
+    "attribute": 5,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10702": {
+    "name": "梅",
+    "attribute": 1,
+    "race": 5,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10703": {
+    "name": "民谷巖鐵齋",
+    "attribute": 2,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10704": {
+    "name": "慶雲",
+    "attribute": 4,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10705": {
+    "name": "如意元君・朱槿",
+    "attribute": 1,
+    "race": 5,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10706": {
+    "name": "鬼屍解・朱槿",
+    "attribute": 1,
+    "race": 3,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10707": {
+    "name": "不空就君・牡丹",
+    "attribute": 5,
+    "race": 5,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10708": {
+    "name": "鬼屍解・牡丹",
+    "attribute": 5,
+    "race": 3,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10709": {
+    "name": "竈神",
+    "attribute": 1,
+    "race": 3,
+    "rarity": 3,
+    "equivalences": []
+  },
+  "10710": {
+    "name": "門神",
+    "attribute": 5,
+    "race": 3,
+    "rarity": 3,
+    "equivalences": []
+  },
+  "10711": {
+    "name": "斷魂雙刃・提爾鋒",
+    "attribute": 1,
+    "race": 4,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10712": {
+    "name": "祈譽劍骨・格拉墨",
+    "attribute": 2,
+    "race": 4,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10713": {
+    "name": "凶虐本質・押瑪",
+    "attribute": 3,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10714": {
+    "name": "皓潔伊始・所多瑪",
+    "attribute": 4,
+    "race": 4,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10715": {
+    "name": "魘尾疚罪・蛾摩拉",
+    "attribute": 5,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10716": {
+    "name": "踏光獠獵・瑣珥",
+    "attribute": 4,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10717": {
+    "name": "絕境破蕾・丁香",
+    "attribute": 5,
+    "race": 3,
+    "rarity": 5,
+    "equivalences": []
+  },
+  "10718": {
+    "name": "羽化蝶息・依凡德 ",
+    "attribute": 4,
+    "race": 3,
+    "rarity": 5,
+    "equivalences": []
+  },
+  "10719": {
+    "name": "龍心垂愛・米斯特汀",
+    "attribute": 5,
+    "race": 4,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10720": {
+    "name": "金迷魂醉・拿破崙",
+    "attribute": 4,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10721": {
+    "name": "純摯回眸・白雪",
+    "attribute": 4,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10722": {
+    "name": "棕櫚麗影・夏綠蒂",
+    "attribute": 1,
+    "race": 10,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10723": {
+    "name": "追波逐陽・哈佛",
+    "attribute": 2,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10724": {
+    "name": "凌雲步法・李龍兒",
+    "attribute": 3,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10725": {
+    "name": "香濃牛肉麵",
+    "attribute": 1,
+    "race": 7,
+    "rarity": 3,
+    "equivalences": []
+  },
+  "10726": {
+    "name": "聖庭審訊・梵帝岡",
+    "attribute": 5,
+    "race": 10,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10727": {
+    "name": "公理推察・卡普里歐",
+    "attribute": 4,
+    "race": 8,
+    "rarity": 5,
+    "equivalences": []
+  },
+  "10728": {
+    "name": "甜美鐐刑・艾蜜莉",
+    "attribute": 5,
+    "race": 3,
+    "rarity": 5,
+    "equivalences": []
+  },
+  "10729": {
+    "name": "病原除錯・卡帕",
+    "attribute": 2,
+    "race": 10,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10730": {
+    "name": "龍緣孚佑・和氏",
+    "attribute": 3,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10731": {
+    "name": "斬魄刑刀・莎樂美",
+    "attribute": 3,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10732": {
+    "name": "獄庭政主・賀茂忠行",
+    "attribute": 1,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10733": {
+    "name": "膨脹貪念・魯斯蘭",
+    "attribute": 3,
+    "race": 10,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10734": {
+    "name": "肅清惡罪・露芙",
+    "attribute": 2,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10735": {
+    "name": "堅毅戰歌・提爾鋒",
+    "attribute": 4,
+    "race": 4,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10736": {
+    "name": "轟旋的凌風・格拉墨",
+    "attribute": 3,
+    "race": 4,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10737": {
+    "name": "蒼影",
+    "attribute": 1,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10738": {
+    "name": "紅丸",
+    "attribute": 2,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10739": {
+    "name": "哥布達",
+    "attribute": 3,
+    "race": 3,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10740": {
+    "name": "紫苑",
+    "attribute": 5,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10741": {
+    "name": "白老",
+    "attribute": 1,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10742": {
+    "name": "利姆路・坦派斯特",
+    "attribute": 1,
+    "race": 3,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10743": {
+    "name": "魔國聯邦盟主・利姆路",
+    "attribute": 1,
+    "race": 3,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10744": {
+    "name": "蘭加",
+    "attribute": 5,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10745": {
+    "name": "戈畢爾",
+    "attribute": 1,
+    "race": 4,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10746": {
+    "name": "井澤靜江",
+    "attribute": 2,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10747": {
+    "name": "朱菜",
+    "attribute": 2,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10748": {
+    "name": "蓋德",
+    "attribute": 4,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10749": {
+    "name": "迪亞布羅",
+    "attribute": 5,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10750": {
+    "name": "魔王・利姆路",
+    "attribute": 5,
+    "race": 8,
+    "rarity": 8,
+    "equivalences": [
+      10742
+    ]
+  },
+  "10751": {
+    "name": "暴風龍・維爾德拉",
+    "attribute": 3,
+    "race": 4,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10752": {
+    "name": "維爾德拉・坦派斯特",
+    "attribute": 3,
+    "race": 4,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10753": {
+    "name": "瑪莉安貝爾與格蘭貝爾",
+    "attribute": 4,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10754": {
+    "name": "紅葉",
+    "attribute": 2,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10755": {
+    "name": "正幸",
+    "attribute": 4,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10756": {
+    "name": "克雷曼",
+    "attribute": 5,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10757": {
+    "name": "菈米莉絲",
+    "attribute": 4,
+    "race": 3,
+    "rarity": 8,
+    "equivalences": []
+  },
+  "10758": {
+    "name": "蜜莉姆・拿渥",
+    "attribute": 2,
+    "race": 4,
+    "rarity": 8,
+    "equivalences": []
+  },
+  "10759": {
+    "name": "日向坂口",
+    "attribute": 4,
+    "race": 1,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10760": {
+    "name": "魯米納斯・瓦倫泰",
+    "attribute": 1,
+    "race": 8,
+    "rarity": 8,
+    "equivalences": []
+  },
+  "10761": {
+    "name": "希波庫特草",
+    "attribute": 3,
+    "race": 7,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10762": {
+    "name": "利姆路・坦派斯特 (人)",
+    "attribute": 1,
+    "race": 1,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10763": {
+    "name": "利姆路・坦派斯特 (獸)",
+    "attribute": 1,
+    "race": 2,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10764": {
+    "name": "利姆路・坦派斯特 (妖)",
+    "attribute": 1,
+    "race": 3,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10765": {
+    "name": "利姆路・坦派斯特 (龍)",
+    "attribute": 1,
+    "race": 4,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10766": {
+    "name": "利姆路・坦派斯特 (神)",
+    "attribute": 1,
+    "race": 5,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10767": {
+    "name": "利姆路・坦派斯特 (魔)",
+    "attribute": 1,
+    "race": 8,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10768": {
+    "name": "利姆路・坦派斯特 (機械)",
+    "attribute": 1,
+    "race": 10,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10769": {
+    "name": "凡第爾國警察",
+    "attribute": 3,
+    "race": 7,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10770": {
+    "name": "真相演算・福爾摩斯",
+    "attribute": 3,
+    "race": 5,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10771": {
+    "name": "萌鴨緝凶・柯南道爾",
+    "attribute": 1,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10772": {
+    "name": "午茶前推理・阿嘉莎",
+    "attribute": 2,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10773": {
+    "name": "卓識斷症・華生",
+    "attribute": 3,
+    "race": 5,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10774": {
+    "name": "變量釋義・莫里亞蒂",
+    "attribute": 4,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10775": {
+    "name": "心理觀測・克拉克",
+    "attribute": 5,
+    "race": 5,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10776": {
+    "name": "鋒迴偵查・考克斯",
+    "attribute": 4,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10777": {
+    "name": "祈愛的聖女・艾莉亞",
+    "attribute": 2,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10778": {
+    "name": "永存的賢王・猶瑟王",
+    "attribute": 4,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10779": {
+    "name": "新手探員・安妮卡",
+    "attribute": 4,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10780": {
+    "name": "皇家女僕長・切爾西",
+    "attribute": 5,
+    "race": 5,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10781": {
+    "name": "奪首真凶・勒克斯",
+    "attribute": 2,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10782": {
+    "name": "前線指揮・雷斯垂德",
+    "attribute": 3,
+    "race": 5,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10783": {
+    "name": "榮冕降臨・查爾斯",
+    "attribute": 5,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10784": {
+    "name": "光榮傳遞・喬治",
+    "attribute": 4,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10786": {
+    "name": "異度殺戮・貝西摩斯",
+    "attribute": 2,
+    "race": 2,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10787": {
+    "name": "抓娃娃達人・宗仔",
+    "attribute": 4,
+    "race": 10,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10788": {
+    "name": "聖夜奪魂使・糖糖",
+    "attribute": 5,
+    "race": 5,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10789": {
+    "name": "共同的祈望・拿破崙與哈佛",
+    "attribute": 5,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10790": {
+    "name": "香魅兔女郎・梅蜜",
+    "attribute": 2,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10791": {
+    "name": "牌桌詭計・黛碧與黛拉",
+    "attribute": 5,
+    "race": 10,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10792": {
+    "name": "全面監視・德里克",
+    "attribute": 3,
+    "race": 4,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10793": {
+    "name": "運氣輪盤・百麗兒",
+    "attribute": 4,
+    "race": 5,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10794": {
+    "name": "歡樂園長・珀西",
+    "attribute": 1,
+    "race": 8,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10795": {
+    "name": "幕後真身・珀西",
+    "attribute": 1,
+    "race": 8,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10796": {
+    "name": "骰子迷旅・兔比",
+    "attribute": 4,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10797": {
+    "name": "作弊專家・貝琳達",
+    "attribute": 1,
+    "race": 3,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10798": {
+    "name": "最初的雪夜聖者・尼古拉斯",
+    "attribute": 3,
+    "race": 3,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10799": {
+    "name": "鏡中重圓・珍妮",
+    "attribute": 1,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10800": {
+    "name": "鏡映初晨・潘妮",
+    "attribute": 2,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10801": {
+    "name": "Spirit",
+    "attribute": 1,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10802": {
+    "name": "Shy",
+    "attribute": 2,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10803": {
+    "name": "Lady Black",
+    "attribute": 3,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10804": {
+    "name": "天王寺曖",
+    "attribute": 4,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10805": {
+    "name": "眠龍",
+    "attribute": 1,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10806": {
+    "name": "Century",
+    "attribute": 2,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10807": {
+    "name": "Stardust",
+    "attribute": 4,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10808": {
+    "name": "小石川惟子",
+    "attribute": 4,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10809": {
+    "name": "輝與惟子與曖",
+    "attribute": 4,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10810": {
+    "name": "Stigma",
+    "attribute": 5,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10811": {
+    "name": "斯維塔",
+    "attribute": 1,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10812": {
+    "name": "怒氣",
+    "attribute": 2,
+    "race": 4,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10813": {
+    "name": "唔呼呼",
+    "attribute": 3,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10814": {
+    "name": "祈願",
+    "attribute": 4,
+    "race": 5,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10815": {
+    "name": "哭哭",
+    "attribute": 5,
+    "race": 8,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10816": {
+    "name": "空虛",
+    "attribute": 5,
+    "race": 1,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10817": {
+    "name": "空虛=空迴",
+    "attribute": 5,
+    "race": 8,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10818": {
+    "name": "蝦翁",
+    "attribute": 3,
+    "race": 7,
+    "rarity": 3,
+    "equivalences": []
+  },
+  "10819": {
+    "name": "雋永之約・黑嘉嘉",
+    "attribute": 4,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10820": {
+    "name": "情定棋局・黑嘉嘉",
+    "attribute": 5,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10821": {
+    "name": "後來居上・白棋",
+    "attribute": 4,
+    "race": 3,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10822": {
+    "name": "構築先機・黑棋",
+    "attribute": 5,
+    "race": 3,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10823": {
+    "name": "人造棋師・道知",
+    "attribute": 4,
+    "race": 10,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10824": {
+    "name": "喵之一手・Bubu",
+    "attribute": 1,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10825": {
+    "name": "詭秘聖祭・奧米伽",
+    "attribute": 1,
+    "race": 10,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10826": {
+    "name": "莊嚴規律・藍德南",
+    "attribute": 3,
+    "race": 1,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10827": {
+    "name": "魔法石靈・帕拉伊巴",
+    "attribute": 1,
+    "race": 3,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10828": {
+    "name": "恆定的仿魂・莉莉絲",
+    "attribute": 1,
+    "race": 10,
+    "rarity": 8,
+    "equivalences": [
+      10829,
+      10150
+    ]
+  },
+  "10829": {
+    "name": "鋼心鏖戰・莉莉絲",
+    "attribute": 1,
+    "race": 10,
+    "rarity": 8,
+    "equivalences": [
+      10150,
+      10828
+    ]
+  },
+  "10835": {
+    "name": "凜潔意氣・甄珂",
+    "attribute": 1,
+    "race": 2,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10837": {
+    "name": "生靈塗炭・胡射山邪祟",
+    "attribute": 2,
+    "race": 3,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10838": {
+    "name": "極惡凶煞・不周山邪祟 (魔)",
+    "attribute": 5,
+    "race": 8,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10839": {
+    "name": "極惡凶煞・不周山邪祟 (獸)",
+    "attribute": 5,
+    "race": 2,
+    "rarity": 7,
+    "equivalences": [
+      10838,
+      10840
+    ]
+  },
+  "10840": {
+    "name": "極惡凶煞・不周山邪祟 (龍)",
+    "attribute": 5,
+    "race": 4,
+    "rarity": 7,
+    "equivalences": [
+      10838,
+      10839
+    ]
+  },
+  "10841": {
+    "name": "鯉躍天翔・軒轅",
+    "attribute": 1,
+    "race": 4,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10842": {
+    "name": "破厄天弓・帝鴻",
+    "attribute": 4,
+    "race": 2,
+    "rarity": 7,
+    "equivalences": []
+  },
+  "10843": {
+    "name": "寳塔護陣・炎帝",
+    "attribute": 2,
+    "race": 5,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10846": {
+    "name": "迷津指點・小硯",
+    "attribute": 5,
+    "race": 3,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "10848": {
+    "name": "大仙顯靈・黃大仙",
+    "attribute": 4,
+    "race": 5,
+    "rarity": 6,
+    "equivalences": []
+  },
+  "11001": {
+    "name": "",
+    "attribute": 2,
     "race": 5,
     "rarity": 7,
     "equivalences": []
