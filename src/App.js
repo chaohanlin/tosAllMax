@@ -238,11 +238,12 @@ const App = () => {
     <div className="app-container">
       <div className="popup-container">
         <div id="imgCover">
-          <img
+          {/*<img
             src={`https://hiteku.github.io/img/tos/tool/tosAllMax/cover.png`}
             alt="imgCover"
             style={{ maxWidth: '500px', width: '100%' }}
-          />
+          />*/}
+          <h1>AllMax推薦工具 2025年版製作中…</h1>
         </div>
         <small style={{ textAlign: 'center', marginBottom: '13px' }}>
           評價者：微醺盜賊
@@ -280,10 +281,7 @@ const App = () => {
           </label>
         </details>
         <div className="custom-select-container">
-          {/* <div className="warning-text">
-            <button onClick={handleResult}>更新列表</button>
-            ⚠️數字僅供參考，必中為 ≤５。但若開過圖鑑後刪除，或擁有進化前的不在此考量，審慎選擇。
-          </div> */}
+          <div className="warning-text">⚠️目前分數、評價還是2024年版，請謹慎使用。</div>
           {((inventory !== undefined && !loadingInventory) && (
             <label>
               {inventory?._id}
