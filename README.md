@@ -1,7 +1,7 @@
 # 神魔All Max自選推薦工具
 
 ![封面.png](https://hiteku.github.io/img/tos/tool/tosAllMax/cover.png)  
-**2024年版**  
+**2025年版**  
 
 # 連結
 
