@@ -20,7 +20,7 @@ function CardInfo({ card, cardInfoRef, style }) {
   const {hasCard, inventory} = useCheckup();
   return (
     <div className="card-info" ref={cardInfoRef} style={style}>
-      <strong>{inventory === undefined && "會"}因以下卡片而改變分數</strong><hr/>
+      <strong>{inventory === undefined && "匯入後將"}因以下卡片而改變分數</strong><hr/>
       {(cardData[card]?.value ?? []).map(([value, quantity], i) => (
         <span className="float-score__card" key={value}>
           <img
@@ -254,7 +254,7 @@ const App = () => {
               style={{ maxWidth: '15px', width: '100%', marginBottom: '-2px', borderRadius: '9%' }}
             />
           </a>
-          &nbsp;<a href="https://www.youtube.com/@user-oq4nb1df7w" target="_blank" rel="noopener noreferrer">
+          &nbsp;<a href="https://www.youtube.com/@%E5%BE%AE%E9%86%BA%E7%9B%9C%E8%B3%8A" target="_blank" rel="noopener noreferrer">
             <img
               src={`https://hiteku.vercel.app/static/assets/icon/youtube.png`}
               alt="imgYoutube"
