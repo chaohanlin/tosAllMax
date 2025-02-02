@@ -1,9 +1,9 @@
-import React, { useState, useRef, useEffect, useMemo } from 'react';
-import Markdown from 'react-markdown';
-import Provider, { useCheckup } from './checkup';
-import cardData from './cardData';
+import React, { useState, useRef, useEffect, useMemo } from "react";
+import Markdown from "react-markdown";
+import Provider, { useCheckup } from "./checkup";
+import cardData from "./cardData";
 import { getCardIconUrl } from "./util";
-import './App.css';
+import "./App.css";
 
 const iconWidth = 60;
 // const AM_pool_2024 = [597, 2796, 1041, 1336, 2041, 2259, 2274, 2740, 2766, 2762, 2273, 2268, 1701, 2017, 2381, 10417, 2820, 1406, 2843, 1922, 2129, 10048, 1191, 1390, 2087, 2803, 2827, 2832, 2052, 2217, 2636, 10103, 10236, 2181, 2602, 1181, 2838, 2306, 2311, 2686, 10197, 2431, 2001, 826, 827, 2731, 1261, 1311, 1375, 1916, 2082, 2481, 1837, 1847, 2496, 10409, 2546, 1327, 2551, 1126, 1266, 2756, 1666, 1811, 2566, 10101, 10372, 1366, 1720, 2007, 10138, 599, 2182, 2798, 2043, 2744, 2747, 2767, 2768, 2275, 2276, 2009, 2382, 10118, 10166, 10520, 1407, 1391, 1924, 2134, 2687, 10490, 1192, 2828, 2833, 2219, 2227, 10049, 10310, 2821, 1868, 2604, 1182, 2312, 2567, 10147, 10519, 2432, 2002, 816, 817, 1042, 2732, 1262, 1312, 1337, 1376, 1917, 2083, 2486, 2482, 2804, 2807, 1702, 1706, 1839, 1849, 2130, 2307, 2313, 2497, 2637, 2641, 10279, 10309, 2547, 1329, 2552, 1127, 1267, 2757, 1667, 1812, 2269, 2839, 2054, 2062, 2501, 10235, 1367, 1721, 601, 2800, 1043, 2045, 2261, 2741, 2745, 2763, 2263, 2383, 2386, 2183, 1408, 1392, 1668, 2483, 1926, 1932, 2308, 2568, 2691, 10102, 1193, 2829, 1869, 2056, 2221, 2229, 2571, 2638, 10480, 2822, 2606, 1183, 2810, 2688, 10278, 2433, 2003, 824, 825, 2733, 1263, 1313, 1338, 1377, 1918, 2084, 2487, 2808, 1707, 1841, 2131, 2135, 10171, 2548, 1331, 2553, 1128, 1268, 2758, 1813, 2088, 2840, 2498, 2502, 10137, 10481, 1368, 1722, 1703, 2011, 2019, 10373, 603, 1339, 2047, 2089, 2271, 2277, 2484, 2746, 2764, 2264, 2265, 2013, 2384, 10271, 10284, 2823, 1409, 2809, 2844, 1870, 1928, 1934, 2569, 2689, 2692, 10455, 1194, 1669, 2742, 2830, 2064, 2223, 2231, 2642, 10170, 2608, 1184, 1393, 2841, 2309, 10047, 2434, 2004, 2184, 820, 821, 822, 1044, 2734, 1269, 1264, 1314, 1378, 2085, 2805, 1704, 1708, 1843, 2132, 2136, 2499, 2503, 2572, 2639, 10100, 10119, 10489, 2549, 1333, 2554, 1129, 2759, 1814, 2769, 2058, 1369, 1723, 10408, 605, 2049, 2266, 2272, 2021, 2387, 2388, 2570, 10050, 10165, 10198, 1410, 2806, 2845, 1930, 1936, 2310, 10146, 10285, 2185, 1195, 2765, 2831, 2834, 2225, 10416, 2610, 1185, 1394, 2842, 2690, 2693, 2435, 2005, 2824, 818, 819, 823, 1045, 2735, 1270, 1265, 1315, 1340, 1379, 2488, 2485, 1705, 1845, 1851, 2133, 2385, 2640, 2643, 2550, 1335, 2555, 1130, 2760, 1670, 1815, 2086, 2262, 2743, 2060, 2066, 2500, 1370, 1724, 2015, 2573, 10270, 10456];
@@ -16,7 +16,7 @@ const craftMaterialCandidate = [10620, 10622];
 
 if(process.env.NODE_ENV !== "production") {
   // 只在開發過程中顯示
-  console.log('AM可選總數：', AM_total);
+  console.log("AM可選總數：", AM_total);
 }
 // var typeCountAll = {}, typeCountHas = {};
 
@@ -45,8 +45,8 @@ const App = () => {
   // const [importFail, setImportFail] = useState(false);
   // const [matchingKeys, setMatchingKeys] = useState([]);
   const notMatchingKeys = useMemo(() => AM_pool.filter(key => !hasCard(key)), [hasCard]);
-  const [uid, setUid] = useState('');
-  const [auth, setAuth] = useState('');
+  const [uid, setUid] = useState("");
+  const [auth, setAuth] = useState("");
   const [displayCount, setDisplayCount] = useState(15);
   const [showCardInfo, setShowCardInfo] = useState(null);
   const [cardInfoPosition, setCardInfoPosition] = useState({ top: 0, left: 0 });
@@ -59,9 +59,9 @@ const App = () => {
         setShowCardInfo(null);
       }
     };
-    window.addEventListener('click', handleCardInfoClick);
+    window.addEventListener("click", handleCardInfoClick);
     return () => {
-      window.removeEventListener('click', handleCardInfoClick);
+      window.removeEventListener("click", handleCardInfoClick);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cardInfoRef]);
@@ -77,32 +77,32 @@ const App = () => {
   };
 
   const handleImport = async () => {
-    if (!uid.match(/^[1-9]\d{6,9}$/)) window.alert('請輸入正確的UID格式')
+    if (!uid.match(/^[1-9]\d{6,9}$/)) window.alert("請輸入正確的UID格式")
     else {
       try {
         setLoadingInventory(true);
         await queryInventory(uid);
         // notMatchingKeys.length = 0;
         // setImportFail(false);
-        window.alert('匯入成功！')
+        window.alert("匯入成功！")
       } catch (error) {
         // setImportFail(true);
-        window.alert('更新失敗。請確認輸入是否正確，且已於神魔健檢中心公開背包。')
+        window.alert("更新失敗。請確認輸入是否正確，且已於神魔健檢中心公開背包。")
       }
       setLoadingInventory(false);
     }
   };
 
   const handleUpdate = async () => {
-    if (!uid.match(/^[1-9]\d{6,9}$/)) window.alert('請輸入正確的UID格式')
-    else if (!auth.match(/^\d{6}$/)) window.alert('請輸入正確的驗證碼')
+    if (!uid.match(/^[1-9]\d{6,9}$/)) window.alert("請輸入正確的UID格式")
+    else if (!auth.match(/^\d{6}$/)) window.alert("請輸入正確的驗證碼")
     else {
       try {
         setLoadingInventory(true);
         await updateInventory(uid, auth);
-        window.alert('更新成功！')
+        window.alert("更新成功！")
       } catch (error) {
-        window.alert('更新失敗。請確認輸入是否正確，且已於神魔健檢中心公開背包。')
+        window.alert("更新失敗。請確認輸入是否正確，且已於神魔健檢中心公開背包。")
       }
       setLoadingInventory(false);
     }
@@ -199,38 +199,38 @@ const App = () => {
   const imgUrlAttr = (attribute) => {
     switch (attribute) {
       case 1:
-        return 'water';
+        return "water";
       case 2:
-        return 'fire';
+        return "fire";
       case 3:
-        return 'earth';
+        return "earth";
       case 4:
-        return 'light';
+        return "light";
       case 5:
-        return 'dark';
+        return "dark";
       default:
-        return '';
+        return "";
     }
   };
 
   const imgUrlRace = (race) => {
     switch (race) {
       case 1:
-        return 'human';
+        return "human";
       case 2:
-        return 'beast';
+        return "beast";
       case 3:
-        return 'elf';
+        return "elf";
       case 4:
-        return 'dragon';
+        return "dragon";
       case 5:
-        return 'god';
+        return "god";
       case 8:
-        return 'demon';
+        return "demon";
       case 10:
-        return 'machina';
+        return "machina";
       default:
-        return '';
+        return "";
     }
   };
 
@@ -245,31 +245,31 @@ const App = () => {
           <img
             src={`https://hiteku.github.io/img/tos/tool/tosAllMax/cover.png`}
             alt="imgCover"
-            style={{ maxWidth: '500px', width: '100%' }}
+            style={{ maxWidth: "500px", width: "100%" }}
           />
           {/* <h1>AllMax推薦工具 2025年版製作中…</h1> */}
         </div>
-        <small style={{ textAlign: 'center', marginBottom: '13px' }}>
+        <small style={{ textAlign: "center", marginBottom: "13px" }}>
         評價者：微醺盜賊
           &nbsp;<a href="https://forum.gamer.com.tw/Co.php?bsn=23805&sn=4096563" target="_blank" rel="noopener noreferrer">
             <img
               src={`https://hiteku.vercel.app/static/assets/icon/bahamut.png`}
               alt="imgBahamut"
-              style={{ maxWidth: '15px', width: '100%', marginBottom: '-2px', borderRadius: '9%' }}
+              style={{ maxWidth: "15px", width: "100%", marginBottom: "-2px", borderRadius: "9%" }}
             />
           </a>
           &nbsp;<a href="https://www.youtube.com/@%E5%BE%AE%E9%86%BA%E7%9B%9C%E8%B3%8A" target="_blank" rel="noopener noreferrer">
             <img
               src={`https://hiteku.vercel.app/static/assets/icon/youtube.png`}
               alt="imgYoutube"
-              style={{ maxWidth: '15px', width: '100%', marginBottom: '-2px', borderRadius: '9%' }}
+              style={{ maxWidth: "15px", width: "100%", marginBottom: "-2px", borderRadius: "9%" }}
             />
           </a>
           &nbsp;<a href="https://github.com/chaohanlin/tosAllMax" target="_blank" rel="noopener noreferrer">
             <img
               src={`https://hiteku.vercel.app/static/assets/icon/github.png`}
               alt="imgGithub"
-              style={{ maxWidth: '15px', width: '100%', marginBottom: '-2px', borderRadius: '9%' }}
+              style={{ maxWidth: "15px", width: "100%", marginBottom: "-2px", borderRadius: "9%" }}
             />
           </a>
           &nbsp;｜協作：Hiteku、璇｜製圖：80074
@@ -279,7 +279,7 @@ const App = () => {
           <button onClick={handleImport} disabled={loadingInventory}>匯入背包</button>
         </label>
         <details>
-          <summary style={{fontSize: '14px', marginTop: '-14px', marginBottom: '4px'}}>資料太舊？</summary>
+          <summary style={{fontSize: "14px", marginTop: "-14px", marginBottom: "4px"}}>資料太舊？</summary>
           <div className="details-content">
             <label>
               活動驗證碼<input type="text" value={auth} onChange={(e) => setAuth(e.target.value)} />
@@ -328,30 +328,30 @@ const App = () => {
             {resultKey.map(([key, score]) => (
               <React.Fragment key={key}>
                 <tr>
-                  <td style={{ width: '77px' }} rowSpan="2">
+                  <td style={{ width: "77px" }} rowSpan="2">
                     <img
                       src={getCardIconUrl(key)}
                       alt={key}
-                      style={{ width: iconWidth + 'px', borderRadius: '9%' }}
+                      style={{ width: iconWidth + "px", borderRadius: "9%" }}
                       onClick={(event) => handleImageHover(event, key)}
                       onMouseEnter={(event) => handleImageHover(event, key)}
                     />
                   </td>
-                  <td style={{ width: '13px' }}>
+                  <td style={{ width: "13px" }}>
                     <img
                       src={`https://hiteku.github.io/img/tos/-/${imgUrlAttr(cardData[key]?.attribute)}.png`}
                       alt={`Attr-${cardData[key]?.attribute}`}
-                      style={{ width: '25px' }}
+                      style={{ width: "25px" }}
                     />
                   </td>
-                  <td style={{ width: '13px' }}>
+                  <td style={{ width: "13px" }}>
                     <img
                       src={`https://hiteku.github.io/img/tos/-/${imgUrlRace(cardData[key]?.race)}.png`}
                       alt={`Race-${cardData[key]?.race}`}
-                      style={{ width: '25px' }}
+                      style={{ width: "25px" }}
                     />
                   </td>
-                  <td className="card-list--left-align card-list__score">{score === 0 ? '暫無評' : score}分</td>
+                  <td className="card-list--left-align card-list__score">{score === 0 ? "暫無評" : score}分</td>
                 </tr>
                 <tr>
                   <td colSpan="2">
@@ -382,7 +382,7 @@ const App = () => {
             <img
               src={getCardIconUrl(key)}
               alt={key}
-              style={{ width: '60px', borderRadius: '9%', opacity: 0.3 }}
+              style={{ width: "60px", borderRadius: "9%", opacity: 0.3 }}
             />
           </div>
         ))} */}
@@ -410,7 +410,7 @@ const App = () => {
                       alt={`icon_${id}`}
                       style={{ width: `${iconWidth}px`, borderRadius: "9%" }}
                     />
-                    {index !== highestMaterialCandidate.length - 1 && ' '}
+                    {index !== highestMaterialCandidate.length - 1 && " "}
                   </React.Fragment>
                 ))}
                 <br />
@@ -443,7 +443,7 @@ const AppWithCheckup = () => {
   return (
     <Provider>
       <App />
-      <ScrollToTopButton></ScrollToTopButton>
+      <ScrollToTopButton />
     </Provider>
   );
 };
@@ -460,35 +460,35 @@ const ScrollToTopButton = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth'
+      behavior: "smooth"
     });
   };
 
   const buttonStyles = {
-    position: 'fixed',
-    bottom: '20px',
-    right: '20px',
-    borderRadius: '50%',
-    background: '#222',
-    color: '#fff',
-    width: '50px',
-    height: '50px',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    cursor: 'pointer',
-    opacity: showButton ? '1' : '0',
-    transition: 'opacity 0.3s ease-in-out'
+    position: "fixed",
+    bottom: "20px",
+    right: "20px",
+    borderRadius: "50%",
+    background: "#222",
+    color: "#fff",
+    width: "50px",
+    height: "50px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    cursor: "pointer",
+    opacity: showButton ? "1" : "0",
+    transition: "opacity 0.3s ease-in-out"
   };
 
   return (
