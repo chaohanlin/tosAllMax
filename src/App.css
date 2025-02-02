@@ -186,3 +186,22 @@ span.float-score__variation--disabled {
 output.inventory-info__update-time--warning {
   color: #f88;
 }
+
+summary {
+  cursor: pointer;
+}
+
+details>div.details-content {
+  padding: 5px;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+.auth-id-alternative-tip {
+  margin-top: 0.8em;
+}
+.auth-id-alternative-tip::before {
+  content: "🛈";
+  color: aqua;
+  padding-right: 0.4em;
+}
