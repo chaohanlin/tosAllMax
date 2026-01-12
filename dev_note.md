@@ -31,7 +31,7 @@ npm run deploy
 
 ### 可選卡片內容
 
-- 檔案位置：`src/App.jsx`
+- 檔案位置：`src/poolData.js`
 - 常數名稱：`AM_pool`
 - 資料型態：`number[]`
 - 註記：
@@ -39,7 +39,7 @@ npm run deploy
 
 ### 可以壓龍刻的卡
 
-- 檔案位置：`src/App.jsx`
+- 檔案位置：`src/poolData.js`
 - 常數名稱：`craftMaterialCandidate`
 - 資料型態：`number[]`
 
@@ -51,8 +51,8 @@ npm run deploy
 
 ### 卡片資料
 
-- 檔案位置：`src/data/cardData.json`
-- 警語：由`src/data/parse.json`自動生成，請勿編輯
+- 檔案位置：`src/data/generated/cardData.json`
+- 警語：由`src/data/generated/parse.js`自動生成，請勿編輯
 
 ### 卡片評分、評語
 

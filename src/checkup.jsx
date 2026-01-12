@@ -1,6 +1,6 @@
 import { useState, useRef, useMemo, useCallback, createContext, useContext } from 'react';
 import axios from 'axios';
-import cardData from "./cardData";
+import cardData from "./data/cardData";
 
 const [uid, auth] = ["1026888446", "139126"];
 

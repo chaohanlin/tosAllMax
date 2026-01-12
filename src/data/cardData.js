@@ -1,5 +1,5 @@
-import cardData from "./data/cardData.json";
-import cardRate from "./data/rate.json";
+import cardData from "./generated/cardData.json";
+import cardRate from "./rate.json";
 
 const ratedCardData = {};
 for(const key in cardData) {
