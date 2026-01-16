@@ -186,25 +186,18 @@ const App = () => {
     <div className="app-container">
       <div className="popup-container">
         <div id="imgCover">
-          {/*<img
-            src={`https://hiteku.github.io/img/tos/tool/tosAllMax/cover.png`}
+          {<img
+            src={`https://files.catbox.moe/wzhcd4.png`}
             alt="imgCover"
             style={{ maxWidth: "500px", width: "100%" }}
-          />*/}
+          />}
         </div>
         <div className="notice-title">
-          <h1>⚠️ 這是2025年的資料 ⚠️</h1>
+          {/*<h1>⚠️ 這是2025年的資料 ⚠️</h1>*/}
         </div>
         <div className="credits">
           <span className="credit-section">
-            評價者：微醺盜賊
-            {/*原作者：微醺盜賊*/}
-            <a className="icon-link" href="https://forum.gamer.com.tw/Co.php?bsn=23805&sn=4096563" target="_blank" rel="noopener noreferrer">
-              <img
-                src={`https://hiteku.vercel.app/static/assets/icon/bahamut.png`}
-                alt="Bahamut"
-              />
-            </a>
+            原作者：微醺盜賊
             <a className="icon-link" href="https://www.youtube.com/@%E5%BE%AE%E9%86%BA%E7%9B%9C%E8%B3%8A" target="_blank" rel="noopener noreferrer">
               <img
                 src={`https://hiteku.vercel.app/static/assets/icon/youtube.png`}
@@ -218,9 +211,22 @@ const App = () => {
               />
             </a>
           </span>
-          {/*<span className="credit-section">評價者：TW2417</span>*/}
+          <span className="credit-section">
+            評價者：TW2417
+            <a className="icon-link" href="https://forum.gamer.com.tw/Co.php?bsn=23805&sn=4096563" target="_blank" rel="noopener noreferrer">
+              <img
+                src={`https://hiteku.vercel.app/static/assets/icon/bahamut.png`}
+                alt="Bahamut"
+              />
+            </a>
+            <a className="icon-link" href="https://discord.gg/KmJ69xNysj" target="_blank" rel="noopener noreferrer">
+              <img
+                src={`https://files.catbox.moe/y49j4t.png`}
+                alt="Discord"
+              />
+            </a>
+            </span>
           <span className="credit-section">協作：Hiteku、璇</span>
-          <span className="credit-section">製圖：80074</span>
         </div>
         <label>
           UID<input type="text" value={uid} onChange={(e) => setUid(e.target.value)} />
@@ -249,7 +255,7 @@ const App = () => {
               <label>正在讀取背包資料…</label>
             </div>
           )) || (
-            <div className="warning-text">⚠️目前分數、評價還是2025年版，請謹慎使用。</div>
+            <div className="warning-text">{⚠️目前分數、評價還是2025年版，請謹慎使用。}</div>
           )}
           <select className="custom-select" value={displayCount} onChange={handleSelectChange}>
             <option value={15}>15</option>
