@@ -1,43 +1,31 @@
 import React, { useState, useRef, useEffect, useMemo } from "react";
 import Markdown from "react-markdown";
+import { IconBrandDiscord, IconBrandGithub, IconBrandYoutube, IconHelpSquareRounded } from "@tabler/icons-react";
+
 import Provider, { useCheckup } from "./checkup";
+import { ScrollToTopButton } from "./components/ScrollToTopButton";
+import { CardInfo } from "./components/CardInfo";
+import { getCardIconUrl, getAttrIconUrl, getRaceIconUrl } from "./iconutil";
+import { needTimeWarning } from "./util";
+
 import cardData from "./data/cardData";
-import { AM_pool, AM_total, craftMaterialCandidate } from "./data/poolData";
-import { getCardIconUrl } from "./util";
+import { AM_pool, AM_total, AM_due_time, craftMaterialCandidate } from "./data/poolData";
+import { DEBUG_FLAG, DEBUG_HAS_ALL } from "./debug";
+
+import bannerImg from "./assets/banner.png";
 import "./App.css";
 
 const iconWidth = 60;
 
-if(process.env.NODE_ENV !== "production") {
+if(DEBUG_FLAG) {
   // 只在開發過程中顯示
   console.log("AM可選總數：", AM_total);
-}
-// var typeCountAll = {}, typeCountHas = {};
-
-function CardInfo({ card, cardInfoRef, style }) {
-  const {hasCard, inventory} = useCheckup();
-  return (
-    <div className="card-info" ref={cardInfoRef} style={style}>
-      <strong>{inventory === undefined && "匯入背包後，將"}因以下卡片而改變分數</strong><hr/>
-      {(cardData[card]?.value ?? []).map(([value, quantity], i) => (
-        <span className="float-score__card" key={value}>
-          <img
-            src={getCardIconUrl(value)}
-            alt={value}
-            className={`float-score__card-icon ${!(hasCard(value) || inventory === undefined) && "float-score__card-icon--disabled"}`}
-          />
-          <span className={`float-score__variation ${hasCard(value) ? "float-score__variation--enabled" : inventory !== undefined && "float-score__variation--disabled"}`}>{quantity >= 0 ? `+${quantity}` : quantity}</span>
-        </span>
-      ))}
-    </div>
-  );
+  console.log("自選截止時間：", new Date(AM_due_time * 1000).toLocaleString());
 }
 
 const App = () => {
   const { queryInventory, updateInventory, hasCard, inventory } = useCheckup();
   const [loadingInventory, setLoadingInventory] = useState(false);
-  // const [importFail, setImportFail] = useState(false);
-  // const [matchingKeys, setMatchingKeys] = useState([]);
   const notMatchingKeys = useMemo(() => AM_pool.filter(key => !hasCard(key)), [hasCard]);
   const [uid, setUid] = useState("");
   const [auth, setAuth] = useState("");
@@ -47,7 +35,6 @@ const App = () => {
   const cardInfoRef = useRef(null);
 
   useEffect(() => {
-    // handleResult();
     const handleCardInfoClick = (event) => {
       if (cardInfoRef.current && !cardInfoRef.current.contains(event.target)) {
         setShowCardInfo(null);
@@ -76,11 +63,8 @@ const App = () => {
       try {
         setLoadingInventory(true);
         await queryInventory(uid);
-        // notMatchingKeys.length = 0;
-        // setImportFail(false);
         window.alert("匯入成功！")
       } catch (error) {
-        // setImportFail(true);
         window.alert("更新失敗。請確認輸入是否正確，且已於神魔健檢中心公開背包。")
       }
       setLoadingInventory(false);
@@ -140,54 +124,12 @@ const App = () => {
     return result.slice(1);
   }, []);
 
-  const imgUrlAttr = (attribute) => {
-    switch (attribute) {
-      case 1:
-        return "water";
-      case 2:
-        return "fire";
-      case 3:
-        return "earth";
-      case 4:
-        return "light";
-      case 5:
-        return "dark";
-      default:
-        return "";
-    }
-  };
-
-  const imgUrlRace = (race) => {
-    switch (race) {
-      case 1:
-        return "human";
-      case 2:
-        return "beast";
-      case 3:
-        return "elf";
-      case 4:
-        return "dragon";
-      case 5:
-        return "god";
-      case 8:
-        return "demon";
-      case 10:
-        return "machina";
-      default:
-        return "";
-    }
-  };
-
-  // 判定時間是距離現在超過30天
-  // 2592000000 = 30*24*60*60*1000 (ms)
-  const needTimeWarning = time => new Date().getTime() - new Date(time).getTime() > 2592000000;
-
   return (
     <div className="app-container">
       <div className="popup-container">
         <div id="imgCover">
           {<img
-            src={`https://files.catbox.moe/wzhcd4.png`}
+            src={bannerImg}
             alt="imgCover"
             style={{ maxWidth: "500px", width: "100%" }}
           />}
@@ -196,37 +138,27 @@ const App = () => {
           {/*<h1>⚠️ 這是2025年的資料 ⚠️</h1>*/}
         </div>
         <div className="credits">
-          <span className="credit-section">
+          <div className="credit-section">
+            <a className="icon-link" title="說明" href="https://forum.gamer.com.tw/Co.php?bsn=23805&sn=4096563" target="_blank" rel="noopener noreferrer">
+              <IconHelpSquareRounded size="1.25em" />
+            </a>
+            <a className="icon-link" title="原始碼" href="https://github.com/chaohanlin/tosAllMax" target="_blank" rel="noopener noreferrer">
+              <IconBrandGithub size="1.25em" />
+            </a>
+          </div>
+          <div className="credit-section">
             原作者：微醺盜賊
             <a className="icon-link" href="https://www.youtube.com/@%E5%BE%AE%E9%86%BA%E7%9B%9C%E8%B3%8A" target="_blank" rel="noopener noreferrer">
-              <img
-                src={`https://hiteku.vercel.app/static/assets/icon/youtube.png`}
-                alt="YouTube"
-              />
+              <IconBrandYoutube size="1.25em" />
             </a>
-            <a className="icon-link" href="https://github.com/chaohanlin/tosAllMax" target="_blank" rel="noopener noreferrer">
-              <img
-                src={`https://hiteku.vercel.app/static/assets/icon/github.png`}
-                alt="GitHub"
-              />
-            </a>
-          </span>
-          <span className="credit-section">
+          </div>
+          <div className="credit-section">
             評價者：TW2417
-            <a className="icon-link" href="https://forum.gamer.com.tw/Co.php?bsn=23805&sn=4096563" target="_blank" rel="noopener noreferrer">
-              <img
-                src={`https://hiteku.vercel.app/static/assets/icon/bahamut.png`}
-                alt="Bahamut"
-              />
-            </a>
             <a className="icon-link" href="https://discord.gg/KmJ69xNysj" target="_blank" rel="noopener noreferrer">
-              <img
-                src={`https://files.catbox.moe/y49j4t.png`}
-                alt="Discord"
-              />
+              <IconBrandDiscord size="1.25em" />
             </a>
-            </span>
-          <span className="credit-section">協作：Hiteku、璇</span>
+            </div>
+          <div className="credit-section">協作：Hiteku、璇</div>
         </div>
         <label>
           UID<input type="text" value={uid} onChange={(e) => setUid(e.target.value)} />
@@ -255,7 +187,8 @@ const App = () => {
               <label>正在讀取背包資料…</label>
             </div>
           )) || (
-            <div className="warning-text">{⚠️目前分數、評價還是2025年版，請謹慎使用。}</div>
+            /*<div className="warning-text">⚠️目前分數、評價還是2025年版，請謹慎使用。</div>*/
+            <div />
           )}
           <select className="custom-select" value={displayCount} onChange={handleSelectChange}>
             <option value={15}>15</option>
@@ -267,7 +200,7 @@ const App = () => {
       </div>
 
       <div className="matching-keys-container">
-      {notMatchingKeys.length > 0 && (
+      {notMatchingKeys.length > 0 && !DEBUG_HAS_ALL && (
         <>
         {showCardInfo && (
           <CardInfo
@@ -292,14 +225,14 @@ const App = () => {
                   </td>
                   <td style={{ width: "13px" }}>
                     <img
-                      src={`https://hiteku.github.io/img/tos/-/${imgUrlAttr(cardData[key]?.attribute)}.png`}
+                      src={getAttrIconUrl(cardData[key]?.attribute)}
                       alt={`Attr-${cardData[key]?.attribute}`}
                       style={{ width: "25px" }}
                     />
                   </td>
                   <td style={{ width: "13px" }}>
                     <img
-                      src={`https://hiteku.github.io/img/tos/-/${imgUrlRace(cardData[key]?.race)}.png`}
+                      src={getRaceIconUrl(cardData[key]?.race)}
                       alt={`Race-${cardData[key]?.race}`}
                       style={{ width: "25px" }}
                     />
@@ -309,11 +242,6 @@ const App = () => {
                 <tr>
                   <td colSpan="2">
                     {key}
-                    {/*(() => {
-                      const type = cardData[key]?.attribute * 100 + cardData[key]?.race;
-                      const result = typeCountAll[type] - typeCountHas[type];
-                      return isNaN(result) ? typeCountAll[type] : result;
-                    })()*/}
                   </td>
                   <td rowSpan="2" className="card-list--left-align card-list__reason">
                     {/*
@@ -330,18 +258,9 @@ const App = () => {
             ))}
           </tbody>
         </table>
-        {/* {matchingKeys.map((key) => (
-          <div key={key} className="matching-key-item">
-            <img
-              src={getCardIconUrl(key)}
-              alt={key}
-              style={{ width: "60px", borderRadius: "9%", opacity: 0.3 }}
-            />
-          </div>
-        ))} */}
         </>
       )}
-      {(notMatchingKeys.length === 0 && inventory !== undefined) && (
+      {(DEBUG_HAS_ALL || notMatchingKeys.length === 0 && inventory !== undefined) && (
         <table>
           <tbody>
             <tr>
@@ -350,7 +269,7 @@ const App = () => {
                   你已經持有所有 All Max 可選的卡片！
                 </div>
                 請隨喜好選擇想複製的卡片。<br />
-                本次 All Max 自選機會將於 {new Date(1716134340000).toLocaleDateString()} 到期。
+                本次 All Max 自選機會將於 {new Date(AM_due_time * 1000).toLocaleDateString()} 到期。
               </td>
             </tr>
             <tr>
@@ -392,7 +311,7 @@ const App = () => {
   );
 };
 
-const AppWithCheckup = () => {
+const WrappedApp = () => {
   return (
     <Provider>
       <App />
@@ -401,54 +320,4 @@ const AppWithCheckup = () => {
   );
 };
 
-const ScrollToTopButton = () => {
-  const [showButton, setShowButton] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 300) {
-        setShowButton(true);
-      } else {
-        setShowButton(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
-  };
-
-  const buttonStyles = {
-    position: "fixed",
-    bottom: "20px",
-    right: "20px",
-    borderRadius: "50%",
-    background: "#222",
-    color: "#fff",
-    width: "50px",
-    height: "50px",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    cursor: "pointer",
-    opacity: showButton ? "1" : "0",
-    transition: "opacity 0.3s ease-in-out"
-  };
-
-  return (
-    <div style={buttonStyles} onClick={scrollToTop} >
-      <i className="fa-solid fa-angle-up"></i>
-    </div>
-  );
-};
-
-export default AppWithCheckup;
+export default WrappedApp;

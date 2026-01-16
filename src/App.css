@@ -24,12 +24,17 @@ a {
 }
 
 .popup-container>.credits {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 13px;
   align-self: center;
+  display: inline-flex;
+  align-items: center;
 }
 .credits>.credit-section {
-  padding: 1px 0;
+  padding: 2px 0;
+  height: 1em;
+  display: inline-flex;
+  align-items: center;
 }
 .credits>.credit-section:not(:last-of-type) {
   padding-right: 0.6em;
@@ -37,6 +42,18 @@ a {
 .credits>.credit-section:not(:first-of-type) {
   padding-left: 0.6em;
   border-left: 1.5px solid silver;
+}
+
+a.icon-link {
+  margin-left: 0.25em;
+  color: #9ff;
+  display: inline-flex;
+}
+a.icon-link>img {
+  width: 100%;
+  max-width: 15px;
+  margin-bottom: -2px;
+  border-radius: 9%;
 }
 
 .popup-container>.notice-title {
@@ -49,17 +66,6 @@ a {
   margin: 5px 0;
   font-size: 40px;
   color: #f55;
-}
-
-a.icon-link {
-  margin-left: 0.25em;
-}
-
-a.icon-link>img {
-  width: 100%;
-  max-width: 15px;
-  margin-bottom: -2px;
-  border-radius: 9%;
 }
 
 label {

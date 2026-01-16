@@ -1,3 +1,6 @@
-export function getCardIconUrl(id) {
-  return `https://d1h5mn9kk900cf.cloudfront.net/toswebsites/gallery/icons/${id.toString().padStart(4, '0')}.jpg`;
+// 時間距離現在超過30天
+const WARNING_THRESHOLD_DAYS = 30;
+export function needTimeWarning(time) {
+  // 86400000 = 24*60*60*1000
+  return new Date().getTime() - new Date(time).getTime() > WARNING_THRESHOLD_DAYS * 86400000;
 }
