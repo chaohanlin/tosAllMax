@@ -1,7 +1,7 @@
 // IMPORTANT:
 // Do NOT import this file
 
-const fs = require("fs");
+import fs from "node:fs";
 
 // monsters.json
 // 位於遊戲設定檔中
