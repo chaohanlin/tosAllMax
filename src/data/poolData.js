@@ -7,7 +7,7 @@ const craftMaterialCandidate_2026 = [10620, 10622, 10658, 10660, 10714, 10715];
 
 // https://www.epochconverter.com/
 //const AM_due_2025 = 1716134399;
-const AM_due_2026 = 1777564799;
+const AM_due_2026 = 1777219199;
 
 // 方便保留往年資料或使用其他測試資料
 export const AM_pool = AM_pool_2026;
