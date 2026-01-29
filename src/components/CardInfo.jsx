@@ -8,7 +8,7 @@ export function CardInfo({ card, cardInfoRef, style }) {
     <div className="card-info" ref={cardInfoRef} style={style}>
       <strong>{inventory === undefined && "匯入背包後，將"}因以下卡片而改變分數</strong><hr/>
       {(cardData[card]?.value ?? []).map(([value, quantity], i) => (
-        <span className="float-score__card" key={value}>
+        <span className="float-score__card" key={i}>
           <img
             src={getCardIconUrl(value)}
             alt={value}
