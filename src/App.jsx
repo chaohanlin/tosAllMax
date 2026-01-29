@@ -139,7 +139,7 @@ const App = () => {
         </div>
         <div className="credits">
           <div className="credit-section">
-            <a className="icon-link" title="說明" href="https://forum.gamer.com.tw/Co.php?bsn=23805&sn=4096563" target="_blank" rel="noopener noreferrer">
+            <a className="icon-link" title="說明" href="https://forum.gamer.com.tw/Co.php?bsn=23805&sn=4214671" target="_blank" rel="noopener noreferrer">
               <IconHelpSquareRounded size="1.25em" />
             </a>
             <a className="icon-link" title="原始碼" href="https://github.com/chaohanlin/tosAllMax" target="_blank" rel="noopener noreferrer">
