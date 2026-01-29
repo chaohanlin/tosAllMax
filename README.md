@@ -1,8 +1,6 @@
 # 神魔All Max自選推薦工具
 
-![封面.png](src/assets/banner.png)  
-
-**2026年資料更新中**
+![封面.png](src/assets/banner.png)
 
 # 連結
 
